@@ -1,18 +1,8 @@
 
-//variables
-$color-principal: pink
-
-/* reset */
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "base/variables";
 
 /* Estilos de Home */
-
-body {
+body{
        background-color: $color-principal;
        header{
               background-image: linear-gradient(to right, rgb(252, 165, 179), rgb(236, 197, 203));
