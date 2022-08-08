@@ -1,18 +1,20 @@
 
 @import "base/variables";
+@import "base/listas"
+
 
 /* Estilos de Home */
 body{
-       background-color: $color-principal;
+    background-color: $color-principal;
        header{
               background-image: linear-gradient(to right, rgb(252, 165, 179), rgb(236, 197, 203));
               h1:hover{
-                      color: palevioletred;
+                      color: nth($list:$colores,$n:2);
                       font-weight: bold;
                       }
               .nombre__artista {
-                               color: white;
-                               font-size: 4rem;
+                               color: nth($list:$colores,$n:3);
+                               font-size: 2rem *2;
                                font: bold;
                                font-family: 'Dancing Script', cursive;
                                margin-top: 15px;
@@ -25,7 +27,7 @@ body{
                    }
               .fondo-nav{
                         margin-top: 2rem;
-                        background-color: white;
+                        background-color: nth($list:$colores,$n:3);
                         }
             }
         main{
@@ -33,12 +35,12 @@ body{
             padding: 1rem;
             font-family: 'Josefin Sans', sans-serif;
             h3:hover{
-                color: white;
+                color: nth($list:$colores,$n:3);
                 font-weight: bold;
                 }
             }
         footer{
-                color: black;
+            color: nth($list:$colores,$n:4);
                 text-align: right;
                 font-family: 'Trispace', sans-serif;
                 font-size: 12px;
