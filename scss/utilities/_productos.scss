@@ -1,0 +1,30 @@
+/*Estilos de Productos*/
+
+main h3:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.productos__titulo{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 15px;
+    margin-top: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred;
+}
+
+.productos__menu{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 5px;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px;
+    border: double white;
+    color: black;
+}

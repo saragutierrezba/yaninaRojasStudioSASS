@@ -1,7 +1,15 @@
 
-@import "base/variables";
-@import "base/listas"
+@import "utilities/variables";
+@import "utilities/listas";
+@import "utilities/mediaqueries";
+@import "utilities/productos";
+/* reset */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Estilos de Home */
 

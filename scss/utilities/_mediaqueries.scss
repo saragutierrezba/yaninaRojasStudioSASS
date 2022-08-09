@@ -1,0 +1,176 @@
+/*Index*/
+@media screen and (min-width: 600px){
+    .cuerpoIndex{
+        margin: 2rem;
+        padding: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: 1fr;
+        grid-template-areas:"conoceProductos conoceProductos"
+                            "parrafo1 parrafo2";
+        grid-area: conoceProductos;
+    }
+    
+    .conoceProductos{
+        grid-area: conoceProductos;
+    }
+    
+    .parrafo1{
+        grid-area: parrafo1;
+    }
+    
+    .parrafo2{
+        grid-area: parrafo2;
+    }
+}
+
+/*Sobre mi*/
+@media screen and (min-width:600px){
+    .sobremi__titulo{
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: left;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        border: 2px palevioletred;
+        color: palevioletred;
+    }
+
+    .imagen__yani{
+        width: 300px;
+        margin-left: 1rem;
+    }
+    .sobreMi{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        grid-template-areas: "sobremi__titulo sobremi__titulo"
+                             "imagen__yani texto__sobremi1"
+                             "subtitulos__sobremi1 subtitulos__sobremi1"
+                             "texto__sobremi2 texto__sobremi2"
+                             "subtitulos__sobremi2 subtitulos__sobremi2"
+                             "texto__sobremi3 texto__sobremi3"
+                             "subtitulos__sobremi3 subtitulos__sobremi3"
+                             "texto__sobremi4 texto__sobremi4" 
+                             "instagram__yani instagram__yani";
+    }
+    
+    .sobremi__titulos{
+        grid-area: sobremi__titulo
+    }
+    
+    .imagen__yani{
+        grid-area: imagen__yani;
+    }
+    
+    .texto__sobremi1{
+        grid-area: texto__sobremi1;
+    
+    }
+    
+    .subtitulos__sobremi1{
+        grid-area: subtitulos__sobremi1;
+    }
+    
+    .texto__sobremi2{
+        grid-area: texto__sobremi2;
+    }
+    
+    .subtitulos__sobremi2{
+        grid-area: subtitulos__sobremi2;
+    }
+    
+    .texto__sobremi3{
+        grid-area: texto__sobremi3;
+    }
+    
+    .subtitulos__sobremi3{
+        grid-area: subtitulos__sobremi3;
+    }
+    
+    .texto__sobremi4{
+        grid-area: texto__sobremi4;
+    }
+    
+    .instagram__yani{
+        grid-area: instagram__yani;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .sobremi__titulo{
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: left;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        border: 2px palevioletred;
+        color: palevioletred;
+    }
+
+    .imagen__yani{
+        width: 300px;
+        margin-left: 1rem;
+    }
+    .sobreMi{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        grid-template-areas: "sobremi__titulo sobremi__titulo"
+                             "imagen__yani texto__sobremi1"
+                             "imagen__yani subtitulos__sobremi1"
+                             "imagen__yani texto__sobremi2"
+                             "subtitulos__sobremi2 subtitulos__sobremi2"
+                             "texto__sobremi3 texto__sobremi3"
+                             "subtitulos__sobremi3 subtitulos__sobremi3"
+                             "texto__sobremi4 texto__sobremi4" 
+                             "instagram__yani instagram__yani";
+    }
+    
+    .sobremi__titulos{
+        grid-area: sobremi__titulo
+    }
+    
+    .imagen__yani{
+        grid-area: imagen__yani;
+    }
+    
+    .texto__sobremi1{
+        grid-area: texto__sobremi1;
+    
+    }
+    
+    .subtitulos__sobremi1{
+        grid-area: subtitulos__sobremi1;
+    }
+    
+    .texto__sobremi2{
+        grid-area: texto__sobremi2;
+        margin-top: 0.2rem;
+    }
+    
+    .subtitulos__sobremi2{
+        grid-area: subtitulos__sobremi2;
+    }
+    
+    .texto__sobremi3{
+        grid-area: texto__sobremi3;
+    }
+    
+    .subtitulos__sobremi3{
+        grid-area: subtitulos__sobremi3;
+    }
+    
+    .texto__sobremi4{
+        grid-area: texto__sobremi4;
+    }
+    
+    .instagram__yani{
+        grid-area: instagram__yani;
+    }
+}
