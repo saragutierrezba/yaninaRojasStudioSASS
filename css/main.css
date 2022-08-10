@@ -124,6 +124,31 @@ main h3:hover {
   border: double white;
   color: black; }
 
+main .productosEnAcuarela {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
+
+main .card1 {
+  grid-area: card1; }
+
+main .card2 {
+  grid-area: card2; }
+
+main .card3 {
+  grid-area: card3; }
+
+main .card4 {
+  grid-area: card4; }
+
+main .card5 {
+  grid-area: card5; }
+
+main .card6 {
+  grid-area: card6; }
+
 /*Estilos de Acuarela tips*/
 main h2:hover {
   color: white;
@@ -354,7 +379,7 @@ body {
         display: grid;
         grid-template-rows: 100%; }
   body main {
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
     font-family: 'Josefin Sans', sans-serif; }
     body main h3:hover {
