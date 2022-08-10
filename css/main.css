@@ -130,24 +130,63 @@ main .productosEnAcuarela {
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
+  main .productosEnAcuarela .card1 {
+    grid-area: card1; }
+  main .productosEnAcuarela .card2 {
+    grid-area: card2; }
+  main .productosEnAcuarela .card3 {
+    grid-area: card3; }
+  main .productosEnAcuarela .card4 {
+    grid-area: card4; }
+  main .productosEnAcuarela .card5 {
+    grid-area: card5; }
+  main .productosEnAcuarela .card6 {
+    grid-area: card6; }
 
-main .card1 {
-  grid-area: card1; }
+main .retratos {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
+  main .retratos .cardRetrato1 {
+    grid-area: cardRetrato1; }
+  main .retratos .cardRetrato2 {
+    grid-area: cardRetrato2; }
+  main .retratos .cardRetrato3 {
+    grid-area: cardRetrato3; }
+  main .retratos .cardRetrato4 {
+    grid-area: cardRetrato4; }
+  main .retratos .cardRetrato5 {
+    grid-area: cardRetrato5; }
+  main .retratos .cardRetrato6 {
+    grid-area: cardRetrato6; }
 
-main .card2 {
-  grid-area: card2; }
+main .souvenirs {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
+  main .souvenirs .cardSouvenirs1 {
+    grid-area: cardSouvenirs1; }
+  main .souvenirs .cardSouvenirs2 {
+    grid-area: cardSouvenirs2; }
+  main .souvenirs .cardSouvenirs3 {
+    grid-area: cardSouvenirs3; }
 
-main .card3 {
-  grid-area: card3; }
-
-main .card4 {
-  grid-area: card4; }
-
-main .card5 {
-  grid-area: card5; }
-
-main .card6 {
-  grid-area: card6; }
+main .regalosPersonalizados {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
+  main .regalosPersonalizados .cardPersonalizados1 {
+    grid-area: cardPersonalizados1; }
+  main .regalosPersonalizados .cardPersonalizados2 {
+    grid-area: cardPersonalizados2; }
+  main .regalosPersonalizados .cardPersonalizados3 {
+    grid-area: cardPersonalizados3; }
 
 /*Estilos de Acuarela tips*/
 main h2:hover {
