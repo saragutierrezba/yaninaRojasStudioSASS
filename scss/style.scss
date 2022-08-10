@@ -39,10 +39,33 @@ body{
                    width: 20%;
                    text-align: left;
                    }
-              .fondo-nav{
-                        margin-top: 2rem;
-                        background-color: nth($list:$colores,$n:3);
+
+               .fondo-nav{
+                background-color: nth($list:$colores,$n:5);
+                padding: 0.5rem;
+                margin-top: 1rem;
+
+                      a:link{
+                            color: nth($list:$colores,$n:4);
+                            text-decoration: none;
+                            font-weight: bold;
                         }
+                 
+                       a:visited{
+                             color: nth($list:$colores,$n:3);
+                             margin: 0rem;
+                             padding: 0rem;
+                             text-decoration: none;
+                             font-weight: bold;
+                             font-family: 'Josefin Sans', sans-serif;
+                             list-style: none;
+                             display: inline-block;
+                             display: grid;
+                             grid-template-rows: 100%;
+                        }
+               }
+                   
+              
             }
         main{
             margin: 2rem;
@@ -56,9 +79,8 @@ body{
         footer{
             color: nth($list:$colores,$n:4);
                 text-align: right;
-                font-family: 'Trispace', sans-serif;
-                font-size: 12px;
-                font-weight: bolder;
+                font-size: 0.8rem;
+                margin-right: 1rem;
                 display: grid;
                 grid-template-columns: 100%
             }
