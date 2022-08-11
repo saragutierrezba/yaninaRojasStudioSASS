@@ -37,6 +37,8 @@
         grid-template-areas: "card1 card2" 
                              "card3 card4" 
                              "card5 card6";
+     }
+
     .card1{
         grid-area: card1;
     }
@@ -55,7 +57,6 @@
     .card6{
         grid-area: card6;
     }
-    }
 
     .retratos{
         display: grid;
@@ -65,6 +66,7 @@
         grid-template-areas: "cardRetrato1 cardRetrato2"
                              "cardRetrato3 cardRetrato4 "
                              "cardRetrato5 cardRetrato6";
+    }
 
     .cardRetrato1{
         grid-area: cardRetrato1
@@ -85,7 +87,6 @@
     .cardRetrato6{
         grid-area: cardRetrato6
     }
-}
 
     .souvenirs{
         display: grid;
@@ -94,6 +95,7 @@
         grid-template-rows: auto;
         grid-template-areas: "cardSouvenirs1 cardSouvenirs2" 
                              "cardSouvenirs3";
+    }
 
         .cardSouvenirs1{
             grid-area: cardSouvenirs1;
@@ -104,7 +106,6 @@
         .cardSouvenirs3{
             grid-area: cardSouvenirs3;
         }
-    }
 
     .regalosPersonalizados{
         display: grid;
@@ -113,6 +114,7 @@
         grid-template-rows: auto;
         grid-template-areas: "cardPersonalizados1 cardPersonalizados2"
                              "cardPersonalizados3";
+    }
 
         .cardPersonalizados1{
             grid-area: cardPersonalizados1;
@@ -124,8 +126,6 @@
             grid-area: cardPersonalizados3;
         }
     }
-
-}
 
 @media screen and (min-width: 1024px){
     main{
@@ -145,7 +145,7 @@
         .productosEnAcuarela{
             display: grid;
             padding: 2rem;
-            grid-template-columns: auto;
+            grid-template-columns: auto auto;
             grid-template-rows: auto;
             grid-template-areas: "card1 card2 card3"
                                  "card4 card5 card6";
@@ -172,7 +172,7 @@
         .retratos{
             display: grid;
             padding: 2rem;
-            grid-template-columns: auto;
+            grid-template-columns: auto auto;
             grid-template-rows: auto;
             grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3"
                                  "cardRetrato4 cardRetrato5 cardRetrato6";
@@ -201,7 +201,7 @@
         .souvenirs{
             display: grid;
             padding: 2rem;
-            grid-template-columns: auto;
+            grid-template-columns: auto auto;
             grid-template-rows: auto;
             grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3";
     

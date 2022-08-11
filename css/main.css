@@ -25,60 +25,60 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2"  "card3 card4"  "card5 card6"; }
-    .productosEnAcuarela .card1 {
-      grid-area: card1; }
-    .productosEnAcuarela .card2 {
-      grid-area: card2; }
-    .productosEnAcuarela .card3 {
-      grid-area: card3; }
-    .productosEnAcuarela .card4 {
-      grid-area: card4; }
-    .productosEnAcuarela .card5 {
-      grid-area: card5; }
-    .productosEnAcuarela .card6 {
-      grid-area: card6; }
+  .card1 {
+    grid-area: card1; }
+  .card2 {
+    grid-area: card2; }
+  .card3 {
+    grid-area: card3; }
+  .card4 {
+    grid-area: card4; }
+  .card5 {
+    grid-area: card5; }
+  .card6 {
+    grid-area: card6; }
   .retratos {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4 " "cardRetrato5 cardRetrato6"; }
-    .retratos .cardRetrato1 {
-      grid-area: cardRetrato1; }
-    .retratos .cardRetrato2 {
-      grid-area: cardRetrato2; }
-    .retratos .cardRetrato3 {
-      grid-area: cardRetrato3; }
-    .retratos .cardRetrato4 {
-      grid-area: cardRetrato4; }
-    .retratos .cardRetrato5 {
-      grid-area: cardRetrato5; }
-    .retratos .cardRetrato6 {
-      grid-area: cardRetrato6; }
+  .cardRetrato1 {
+    grid-area: cardRetrato1; }
+  .cardRetrato2 {
+    grid-area: cardRetrato2; }
+  .cardRetrato3 {
+    grid-area: cardRetrato3; }
+  .cardRetrato4 {
+    grid-area: cardRetrato4; }
+  .cardRetrato5 {
+    grid-area: cardRetrato5; }
+  .cardRetrato6 {
+    grid-area: cardRetrato6; }
   .souvenirs {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3"; }
-    .souvenirs .cardSouvenirs1 {
-      grid-area: cardSouvenirs1; }
-    .souvenirs .cardSouvenirs2 {
-      grid-area: cardSouvenirs2; }
-    .souvenirs .cardSouvenirs3 {
-      grid-area: cardSouvenirs3; }
+  .cardSouvenirs1 {
+    grid-area: cardSouvenirs1; }
+  .cardSouvenirs2 {
+    grid-area: cardSouvenirs2; }
+  .cardSouvenirs3 {
+    grid-area: cardSouvenirs3; }
   .regalosPersonalizados {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3"; }
-    .regalosPersonalizados .cardPersonalizados1 {
-      grid-area: cardPersonalizados1; }
-    .regalosPersonalizados .cardPersonalizados2 {
-      grid-area: cardPersonalizados2; }
-    .regalosPersonalizados .cardPersonalizados3 {
-      grid-area: cardPersonalizados3; } }
+  .cardPersonalizados1 {
+    grid-area: cardPersonalizados1; }
+  .cardPersonalizados2 {
+    grid-area: cardPersonalizados2; }
+  .cardPersonalizados3 {
+    grid-area: cardPersonalizados3; } }
 
 @media screen and (min-width: 1024px) {
   main nav h4 {
@@ -94,7 +94,7 @@
   main .productosEnAcuarela {
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
     main .productosEnAcuarela .card1 {
@@ -112,7 +112,7 @@
   main .retratos {
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
     main .retratos .cardRetrato1 {
@@ -130,7 +130,7 @@
   main .souvenirs {
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
     main .souvenirs .cardSouvenirs1 {
