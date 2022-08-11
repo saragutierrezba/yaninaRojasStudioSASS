@@ -17,6 +17,141 @@
   .parrafo2 {
     grid-area: parrafo2; } }
 
+/*Productos*/
+@media screen and (min-width: 600px) {
+  .productosEnAcuarela {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "card1 card2"  "card3 card4"  "card5 card6"; }
+    .productosEnAcuarela .card1 {
+      grid-area: card1; }
+    .productosEnAcuarela .card2 {
+      grid-area: card2; }
+    .productosEnAcuarela .card3 {
+      grid-area: card3; }
+    .productosEnAcuarela .card4 {
+      grid-area: card4; }
+    .productosEnAcuarela .card5 {
+      grid-area: card5; }
+    .productosEnAcuarela .card6 {
+      grid-area: card6; }
+  .retratos {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4 " "cardRetrato5 cardRetrato6"; }
+    .retratos .cardRetrato1 {
+      grid-area: cardRetrato1; }
+    .retratos .cardRetrato2 {
+      grid-area: cardRetrato2; }
+    .retratos .cardRetrato3 {
+      grid-area: cardRetrato3; }
+    .retratos .cardRetrato4 {
+      grid-area: cardRetrato4; }
+    .retratos .cardRetrato5 {
+      grid-area: cardRetrato5; }
+    .retratos .cardRetrato6 {
+      grid-area: cardRetrato6; }
+  .souvenirs {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3"; }
+    .souvenirs .cardSouvenirs1 {
+      grid-area: cardSouvenirs1; }
+    .souvenirs .cardSouvenirs2 {
+      grid-area: cardSouvenirs2; }
+    .souvenirs .cardSouvenirs3 {
+      grid-area: cardSouvenirs3; }
+  .regalosPersonalizados {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3"; }
+    .regalosPersonalizados .cardPersonalizados1 {
+      grid-area: cardPersonalizados1; }
+    .regalosPersonalizados .cardPersonalizados2 {
+      grid-area: cardPersonalizados2; }
+    .regalosPersonalizados .cardPersonalizados3 {
+      grid-area: cardPersonalizados3; } }
+
+@media screen and (min-width: 1024px) {
+  main nav h4 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  main .productosEnAcuarela {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
+    main .productosEnAcuarela .card1 {
+      grid-area: card1; }
+    main .productosEnAcuarela .card2 {
+      grid-area: card2; }
+    main .productosEnAcuarela .card3 {
+      grid-area: card3; }
+    main .productosEnAcuarela .card4 {
+      grid-area: card4; }
+    main .productosEnAcuarela .card5 {
+      grid-area: card5; }
+    main .productosEnAcuarela .card6 {
+      grid-area: card6; }
+  main .retratos {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
+    main .retratos .cardRetrato1 {
+      grid-area: cardRetrato1; }
+    main .retratos .cardRetrato2 {
+      grid-area: cardRetrato2; }
+    main .retratos .cardRetrato3 {
+      grid-area: cardRetrato3; }
+    main .retratos .cardRetrato4 {
+      grid-area: cardRetrato4; }
+    main .retratos .cardRetrato5 {
+      grid-area: cardRetrato5; }
+    main .retratos .cardRetrato6 {
+      grid-area: cardRetrato6; }
+  main .souvenirs {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
+    main .souvenirs .cardSouvenirs1 {
+      grid-area: cardSouvenirs1; }
+    main .souvenirs .cardSouvenirs2 {
+      grid-area: cardSouvenirs2; }
+    main .souvenirs .cardSouvenirs3 {
+      grid-area: cardSouvenirs3; }
+  main .regalosPersonalizados {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
+    main .regalosPersonalizados .cardPersonalizados1 {
+      grid-area: cardPersonalizados1; }
+    main .regalosPersonalizados .cardPersonalizados2 {
+      grid-area: cardPersonalizados2; }
+    main .regalosPersonalizados .cardPersonalizados3 {
+      grid-area: cardPersonalizados3; } }
+
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
   .sobremi__titulo {
@@ -98,11 +233,11 @@
     grid-area: instagram__yani; } }
 
 /*Estilos de Productos*/
-main h3:hover {
+body header main h3:hover {
   color: white;
   font-weight: bold; }
 
-.productos__titulo {
+body header .productos__titulo {
   font-weight: bolder;
   font-size: 30px;
   text-align: left;
@@ -112,7 +247,7 @@ main h3:hover {
   border: 2px palevioletred;
   color: palevioletred; }
 
-.productos__menu {
+body header .productos__menu {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -124,68 +259,79 @@ main h3:hover {
   border: double white;
   color: black; }
 
-main .productosEnAcuarela {
+body main nav h4 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: underline;
+  margin-left: 15px;
+  margin-top: 1rem;
+  border: 2px palevioletred;
+  color: palevioletred; }
+
+body main nav .productosEnAcuarela {
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
-  main .productosEnAcuarela .card1 {
+  grid-template-areas: "card1"  "card2"  "card3" "card4"  "card5"  "card6"; }
+  body main nav .productosEnAcuarela .card1 {
     grid-area: card1; }
-  main .productosEnAcuarela .card2 {
+  body main nav .productosEnAcuarela .card2 {
     grid-area: card2; }
-  main .productosEnAcuarela .card3 {
+  body main nav .productosEnAcuarela .card3 {
     grid-area: card3; }
-  main .productosEnAcuarela .card4 {
+  body main nav .productosEnAcuarela .card4 {
     grid-area: card4; }
-  main .productosEnAcuarela .card5 {
+  body main nav .productosEnAcuarela .card5 {
     grid-area: card5; }
-  main .productosEnAcuarela .card6 {
+  body main nav .productosEnAcuarela .card6 {
     grid-area: card6; }
 
-main .retratos {
+body main nav .retratos {
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
-  main .retratos .cardRetrato1 {
+  grid-template-areas: "cardRetrato1"  "cardRetrato2"  "cardRetrato3" "cardRetrato4"  "cardRetrato5"  "cardRetrato6"; }
+  body main nav .retratos .cardRetrato1 {
     grid-area: cardRetrato1; }
-  main .retratos .cardRetrato2 {
+  body main nav .retratos .cardRetrato2 {
     grid-area: cardRetrato2; }
-  main .retratos .cardRetrato3 {
+  body main nav .retratos .cardRetrato3 {
     grid-area: cardRetrato3; }
-  main .retratos .cardRetrato4 {
+  body main nav .retratos .cardRetrato4 {
     grid-area: cardRetrato4; }
-  main .retratos .cardRetrato5 {
+  body main nav .retratos .cardRetrato5 {
     grid-area: cardRetrato5; }
-  main .retratos .cardRetrato6 {
+  body main nav .retratos .cardRetrato6 {
     grid-area: cardRetrato6; }
 
-main .souvenirs {
+body main nav .souvenirs {
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
-  main .souvenirs .cardSouvenirs1 {
+  grid-template-areas: "cardSouvenirs1" "cardSouvenirs2"  "cardSouvenirs3"; }
+  body main nav .souvenirs .cardSouvenirs1 {
     grid-area: cardSouvenirs1; }
-  main .souvenirs .cardSouvenirs2 {
+  body main nav .souvenirs .cardSouvenirs2 {
     grid-area: cardSouvenirs2; }
-  main .souvenirs .cardSouvenirs3 {
+  body main nav .souvenirs .cardSouvenirs3 {
     grid-area: cardSouvenirs3; }
 
-main .regalosPersonalizados {
+body main nav .regalosPersonalizados {
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
-  main .regalosPersonalizados .cardPersonalizados1 {
+  grid-template-areas: "cardPersonalizados1"  "cardPersonalizados2"  "cardPersonalizados3"; }
+  body main nav .regalosPersonalizados .cardPersonalizados1 {
     grid-area: cardPersonalizados1; }
-  main .regalosPersonalizados .cardPersonalizados2 {
+  body main nav .regalosPersonalizados .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
-  main .regalosPersonalizados .cardPersonalizados3 {
+  body main nav .regalosPersonalizados .cardPersonalizados3 {
     grid-area: cardPersonalizados3; }
 
 /*Estilos de Acuarela tips*/
