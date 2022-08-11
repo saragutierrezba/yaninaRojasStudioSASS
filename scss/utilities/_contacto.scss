@@ -1,0 +1,30 @@
+@import "utilities/variables";
+@import "utilities/listas";
+@import "utilities/mediaqueries";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+
+.formulario__titulo{
+    @extend %estilo-titulos;
+}  
+
+main form fieldset legend:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.formulario__contacto{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 15px;
+    background-color: rgb(243, 231, 233);
+    padding: 10px;
+    border: 5px;
+    border-radius: 15px;
+}
+
+footer{
+    @include estilo-footer;
+}

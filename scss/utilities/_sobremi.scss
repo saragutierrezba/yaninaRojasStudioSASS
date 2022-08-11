@@ -1,3 +1,10 @@
+@import "utilities/variables";
+@import "utilities/listas";
+@import "utilities/mediaqueries";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+
 /*Estilos de Sobre mí*/
 
 .sobremi__titulo{
@@ -188,4 +195,8 @@ main form fieldset legend:hover{
     padding: 10px;
     border: 5px;
     border-radius: 15px;
+}
+
+footer{
+    @include estilo-footer;
 }

@@ -2,6 +2,8 @@
 @import "utilities/variables";
 @import "utilities/listas";
 @import "utilities/mediaqueries";
+@import "utilities/mixin";
+@import "utilities/extend";
 @import "utilities/productos";
 @import "utilities/acuarelatips";
 @import "utilities/sobremi";
@@ -67,21 +69,21 @@ body{
                    
               
             }
+
         main{
+            .conoceProductos{
+                color: nth($colores, 4);
+            }
             margin: 1rem;
             padding: 1rem;
             font-family: 'Josefin Sans', sans-serif;
             h3:hover{
-                color: nth($list:$colores,$n:3);
-                font-weight: bold;
-                }
-            }
+                    color: nth($list:$colores,$n:3);
+                    font-weight: bold;
+                    }
+        }
+        
         footer{
-            color: nth($list:$colores,$n:4);
-                text-align: right;
-                font-size: 0.8rem;
-                margin-right: 1rem;
-                display: grid;
-                grid-template-columns: 100%
+            @include estilo-footer;
             }
 }

@@ -1,0 +1,9 @@
+
+@mixin estilo-footer {
+        color: nth($list:$colores,$n:4);
+        text-align: right;
+        font-size: 0.8rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: 100%
+        }

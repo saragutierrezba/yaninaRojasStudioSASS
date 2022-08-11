@@ -1,3 +1,10 @@
+@import "utilities/variables";
+@import "utilities/listas";
+@import "utilities/mediaqueries";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+
 /*Estilos de Acuarela tips*/
 
 main h2:hover{
@@ -6,14 +13,7 @@ main h2:hover{
 }
 
 .acuarela__titulo{
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 15px;
-    margin-top: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred;
+    @extend %estilo-titulos;
 }
 
 .video__acuarela{
@@ -30,4 +30,8 @@ main h2:hover{
     padding: 10px;
     border: 5px;
     border-radius: 15px;
+}
+
+footer{
+    @include estilo-footer;
 }
