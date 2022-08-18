@@ -1104,7 +1104,7 @@ footer {
 /*Estilos de Sobre mí*/
 .sobremi__titulo {
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 1rem;
@@ -1115,7 +1115,7 @@ footer {
 .sobreMi {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani imagen__yani" "texto__sobremi1 texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
 
 .sobremi__titulo {
@@ -1154,8 +1154,9 @@ footer {
 
 .subtitulos__sobremi1 {
   font-weight: bolder;
-  font-size: 20px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 1rem;
   margin-top: 0.8rem;
@@ -1164,8 +1165,9 @@ footer {
 
 .subtitulos__sobremi2 {
   font-weight: bolder;
-  font-size: 20px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 1rem;
   margin-top: 0.8rem;
@@ -1174,8 +1176,9 @@ footer {
 
 .subtitulos__sobremi3 {
   font-weight: bolder;
-  font-size: 20px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 1rem;
   margin-top: 0.8rem;
@@ -1183,48 +1186,28 @@ footer {
   color: palevioletred; }
 
 .texto__sobremi1 {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 15px;
-  background-color: pink;
-  padding: 10px;
-  border: 5px;
-  border-radius: 15px; }
+  text-align: center;
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem; }
 
 .texto__sobremi2 {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 15px;
-  background-color: pink;
-  padding: 10px;
-  border: 5px;
-  border-radius: 15px; }
+  text-align: center;
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem; }
 
 .texto__sobremi3 {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 15px;
-  background-color: pink;
-  padding: 10px;
-  border: 5px;
-  border-radius: 15px; }
+  text-align: center;
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem; }
 
 .texto__sobremi4 {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 15px;
-  background-color: pink;
-  padding: 10px;
-  border: 5px;
-  border-radius: 15px; }
+  text-align: center;
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem; }
 
 .instagram__yani {
   font-weight: bolder;
@@ -1233,29 +1216,6 @@ footer {
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 1rem;
   margin-top: 2rem; }
-
-/*Estilos de Contacto*/
-.formulario__titulo {
-  font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 15px;
-  color: palevioletred; }
-
-main form fieldset legend:hover {
-  color: black;
-  font-weight: bold; }
-
-.formulario__contacto {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin: 15px;
-  background-color: #f3e7e9;
-  padding: 10px;
-  border: 5px;
-  border-radius: 15px; }
 
 footer {
   color: black;
@@ -1578,6 +1538,7 @@ body {
     color: palevioletred;
     margin: 1rem;
     padding: 0rem;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.7rem;
     text-decoration: underline; }
@@ -1585,10 +1546,12 @@ body {
     color: white;
     font-weight: bold; }
   body main div .parrafo1 {
+    text-align: center;
     margin: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body main div .parrafo2 {
+    text-align: center;
     margin: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }

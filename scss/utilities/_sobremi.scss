@@ -9,7 +9,7 @@
 
 .sobremi__titulo{
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1rem;
@@ -21,7 +21,7 @@
 .sobreMi{
     display: grid;
     grid-template-columns: auto auto ;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-template-areas: "sobremi__titulo sobremi__titulo"
                          "imagen__yani imagen__yani"
                          "texto__sobremi1 texto__sobremi1"
@@ -81,85 +81,32 @@
 }
 
 .subtitulos__sobremi1{
-    font-weight: bolder;
-    font-size: 20px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 1rem;
-    margin-top: 0.8rem;
-    border: 2px palevioletred;
-    color: palevioletred;
+       @include estilo-subtitulosSobreMi
 }
 
 .subtitulos__sobremi2{
-    font-weight: bolder;
-    font-size: 20px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 1rem;
-    margin-top: 0.8rem;
-    border: 2px palevioletred;
-    color: palevioletred;
+       @include estilo-subtitulosSobreMi
 }
 
 .subtitulos__sobremi3{
-    font-weight: bolder;
-    font-size: 20px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 1rem;
-    margin-top: 0.8rem;
-    border: 2px palevioletred;
-    color: palevioletred;
+       @include estilo-subtitulosSobreMi
 }
 
 
 .texto__sobremi1{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    margin-left: 15px;
-    margin-top: 15px;
-    background-color: pink;
-    padding: 10px;
-    border: 5px;
-    border-radius: 15px;
+    @include estilo-textos
 }
 
 .texto__sobremi2{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    margin-left: 15px;
-    margin-top: 15px;
-    background-color: pink;
-    padding: 10px;
-    border: 5px;
-    border-radius: 15px;
+    @include estilo-textos
 }
 
 .texto__sobremi3{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    margin-left: 15px;
-    margin-top: 15px;
-    background-color: pink;
-    padding: 10px;
-    border: 5px;
-    border-radius: 15px;
+    @include estilo-textos
 }
 
 .texto__sobremi4{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    margin-left: 15px;
-    margin-top: 15px;
-    background-color: pink;
-    padding: 10px;
-    border: 5px;
-    border-radius: 15px;
+    @include estilo-textos
 }
 
 .instagram__yani{
@@ -169,32 +116,6 @@
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 1rem;
     margin-top: 2rem;
-}
-/*Estilos de Contacto*/
-
-.formulario__titulo{
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 15px;
-    color: palevioletred;
-}  
-
-main form fieldset legend:hover{
-    color: black;
-    font-weight: bold;
-}
-
-.formulario__contacto{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    margin: 15px;
-    background-color: rgb(243, 231, 233);
-    padding: 10px;
-    border: 5px;
-    border-radius: 15px;
 }
 
 footer{
