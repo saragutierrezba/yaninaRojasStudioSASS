@@ -490,16 +490,6 @@ body header main h3:hover {
   color: white;
   font-weight: bold; }
 
-body header .productos__titulo {
-  font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 15px;
-  margin-top: 1rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
 body header .productos__menu {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -511,6 +501,14 @@ body header .productos__menu {
   margin: 15px;
   border: double white;
   color: black; }
+
+body main h3 {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 1rem;
+  color: palevioletred; }
 
 body main nav h4 {
   font-weight: bolder;
@@ -844,18 +842,13 @@ main h2:hover {
   font-weight: bold; }
 
 .video__acuarela {
-  margin-left: 15px; }
+  margin-left: 15px;
+  size-adjust: 1rem; }
 
 .texto__acuarela {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 15px;
-  background-color: pink;
-  padding: 10px;
-  border: 5px;
-  border-radius: 15px; }
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem; }
 
 footer {
   color: black;
@@ -1581,15 +1574,24 @@ body {
         display: inline-block;
         display: grid;
         grid-template-rows: 100%; }
-  body main {
+  body main .conoceProductos {
+    color: palevioletred;
     margin: 1rem;
-    padding: 1rem;
-    font-family: 'Josefin Sans', sans-serif; }
-    body main .conoceProductos {
-      color: black; }
-    body main h3:hover {
-      color: white;
-      font-weight: bold; }
+    padding: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    text-decoration: underline; }
+  body main h3:hover {
+    color: white;
+    font-weight: bold; }
+  body main div .parrafo1 {
+    margin: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; }
+  body main div .parrafo2 {
+    margin: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; }
   body footer {
     color: black;
     text-align: right;

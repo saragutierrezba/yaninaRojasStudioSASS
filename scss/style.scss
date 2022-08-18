@@ -72,15 +72,31 @@ body{
 
         main{
             .conoceProductos{
-                color: nth($colores, 4);
+                color: nth($colores, 2);
+                margin: 1rem;
+                padding: 0rem;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 1.7rem;text-decoration: underline;
+
             }
-            margin: 1rem;
-            padding: 1rem;
-            font-family: 'Josefin Sans', sans-serif;
+           
             h3:hover{
                     color: nth($list:$colores,$n:3);
                     font-weight: bold;
                     }
+            div{
+                .parrafo1{
+                    margin: 1rem;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 1.2rem
+                }
+
+                .parrafo2{
+                    margin: 1rem;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 1.2rem
+                }
+            }
         }
         
         footer{
