@@ -11,7 +11,7 @@ body{
     main h3:hover{
     color: white;
     font-weight: bold;
-}
+    }
     
     .productos__menu{
     font-weight: bold;
@@ -24,10 +24,10 @@ body{
     margin: 15px;
     border: double white;
     color: black;
-}
-}
-
-main{
+    }
+    }
+    
+    main{
     h3{
         @include estilo-titulos
     }
@@ -36,6 +36,10 @@ main{
             @include estilo-subtitulosProductos  
         }
         .productosEnAcuarela{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
             display: grid;
             padding: 2rem;
             grid-template-columns: auto;
@@ -67,6 +71,9 @@ main{
         }
     
         .retratos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             display: grid;
             padding: 2rem;
             grid-template-columns: auto;
@@ -97,9 +104,12 @@ main{
         .cardRetrato6{
             grid-area: cardRetrato6
         }
-    }
+        }
     
         .souvenirs{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             display: grid;
             padding: 2rem;
             grid-template-columns: auto;
@@ -120,6 +130,9 @@ main{
         }
     
         .regalosPersonalizados{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             display: grid;
             padding: 2rem;
             grid-template-columns: auto;
@@ -140,7 +153,7 @@ main{
     }
 }
 
-footer{
+    footer{
     @include estilo-footer;
-}
+    }
 }

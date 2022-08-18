@@ -524,6 +524,10 @@ body main nav h4 {
   color: palevioletred; }
 
 body main nav .productosEnAcuarela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
@@ -543,6 +547,9 @@ body main nav .productosEnAcuarela {
     grid-area: card6; }
 
 body main nav .retratos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
@@ -562,6 +569,9 @@ body main nav .retratos {
     grid-area: cardRetrato6; }
 
 body main nav .souvenirs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
@@ -575,6 +585,9 @@ body main nav .souvenirs {
     grid-area: cardSouvenirs3; }
 
 body main nav .regalosPersonalizados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: grid;
   padding: 2rem;
   grid-template-columns: auto;
@@ -1189,25 +1202,25 @@ footer {
 
 .texto__sobremi1 {
   text-align: center;
-  margin: 1rem;
+  margin: 1.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2rem; }
 
 .texto__sobremi2 {
   text-align: center;
-  margin: 1rem;
+  margin: 1.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2rem; }
 
 .texto__sobremi3 {
   text-align: center;
-  margin: 1rem;
+  margin: 1.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2rem; }
 
 .texto__sobremi4 {
   text-align: center;
-  margin: 1rem;
+  margin: 1.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2rem; }
 
@@ -1549,12 +1562,12 @@ body {
     font-weight: bold; }
   body main div .parrafo1 {
     text-align: center;
-    margin: 1rem;
+    margin: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body main div .parrafo2 {
     text-align: center;
-    margin: 1rem;
+    margin: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body footer {
