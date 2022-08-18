@@ -13,7 +13,7 @@ main h2:hover{
 }
 
 .acuarela__titulo{
-    @extend %estilo-titulos;
+    @include estilo-titulos;
 }
 
 .video__acuarela{
@@ -22,9 +22,7 @@ main h2:hover{
 }
 
 .texto__acuarela{
-    margin: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem
+    @include estilo-textos
 }
 
 footer{

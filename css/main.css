@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
   .cuerpoIndex {
@@ -20,6 +21,8 @@
 /*Productos*/
 @media screen and (min-width: 600px) {
   .productosEnAcuarela {
+    display: flex;
+    justify-content: space-between;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
@@ -42,7 +45,7 @@
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4 " "cardRetrato5 cardRetrato6"; }
+    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
   .cardRetrato1 {
     grid-area: cardRetrato1; }
   .cardRetrato2 {
@@ -80,6 +83,49 @@
   .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
 
+/*Sobre mi*/
+@media screen and (min-width: 600px) {
+  .sobremi__titulo {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  .imagen__yani {
+    width: 300px;
+    margin-left: 1rem; }
+  .sobreMi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
+  .sobremi__titulos {
+    grid-area: sobremi__titulo; }
+  .imagen__yani {
+    grid-area: imagen__yani; }
+  .texto__sobremi1 {
+    grid-area: texto__sobremi1; }
+  .subtitulos__sobremi1 {
+    grid-area: subtitulos__sobremi1; }
+  .texto__sobremi2 {
+    grid-area: texto__sobremi2; }
+  .subtitulos__sobremi2 {
+    grid-area: subtitulos__sobremi2; }
+  .texto__sobremi3 {
+    grid-area: texto__sobremi3; }
+  .subtitulos__sobremi3 {
+    grid-area: subtitulos__sobremi3; }
+  .texto__sobremi4 {
+    grid-area: texto__sobremi4; }
+  .instagram__yani {
+    grid-area: instagram__yani; } }
+
+/*Acuarela tips*/
+/*Media queries tamaño desktop*/
+/*Productos*/
 @media screen and (min-width: 1024px) {
   main nav h4 {
     font-weight: bolder;
@@ -153,45 +199,6 @@
       grid-area: cardPersonalizados3; } }
 
 /*Sobre mi*/
-@media screen and (min-width: 600px) {
-  .sobremi__titulo {
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
-    margin-left: 1rem; }
-  .sobreMi {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
-    grid-area: sobremi__titulo; }
-  .imagen__yani {
-    grid-area: imagen__yani; }
-  .texto__sobremi1 {
-    grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
-    grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
-    grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
-    grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
-    grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
-    grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
-    grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
     font-weight: bolder;
@@ -232,7 +239,7 @@
   .instagram__yani {
     grid-area: instagram__yani; } }
 
-.acuarela__titulo, .formulario__titulo {
+.formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
   text-align: left;
@@ -242,6 +249,7 @@
   border: 2px palevioletred;
   color: palevioletred; }
 
+/*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
   .cuerpoIndex {
@@ -263,6 +271,8 @@
 /*Productos*/
 @media screen and (min-width: 600px) {
   .productosEnAcuarela {
+    display: flex;
+    justify-content: space-between;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
@@ -285,7 +295,7 @@
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4 " "cardRetrato5 cardRetrato6"; }
+    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
   .cardRetrato1 {
     grid-area: cardRetrato1; }
   .cardRetrato2 {
@@ -323,6 +333,49 @@
   .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
 
+/*Sobre mi*/
+@media screen and (min-width: 600px) {
+  .sobremi__titulo {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  .imagen__yani {
+    width: 300px;
+    margin-left: 1rem; }
+  .sobreMi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
+  .sobremi__titulos {
+    grid-area: sobremi__titulo; }
+  .imagen__yani {
+    grid-area: imagen__yani; }
+  .texto__sobremi1 {
+    grid-area: texto__sobremi1; }
+  .subtitulos__sobremi1 {
+    grid-area: subtitulos__sobremi1; }
+  .texto__sobremi2 {
+    grid-area: texto__sobremi2; }
+  .subtitulos__sobremi2 {
+    grid-area: subtitulos__sobremi2; }
+  .texto__sobremi3 {
+    grid-area: texto__sobremi3; }
+  .subtitulos__sobremi3 {
+    grid-area: subtitulos__sobremi3; }
+  .texto__sobremi4 {
+    grid-area: texto__sobremi4; }
+  .instagram__yani {
+    grid-area: instagram__yani; } }
+
+/*Acuarela tips*/
+/*Media queries tamaño desktop*/
+/*Productos*/
 @media screen and (min-width: 1024px) {
   main nav h4 {
     font-weight: bolder;
@@ -396,45 +449,6 @@
       grid-area: cardPersonalizados3; } }
 
 /*Sobre mi*/
-@media screen and (min-width: 600px) {
-  .sobremi__titulo {
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
-    margin-left: 1rem; }
-  .sobreMi {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
-    grid-area: sobremi__titulo; }
-  .imagen__yani {
-    grid-area: imagen__yani; }
-  .texto__sobremi1 {
-    grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
-    grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
-    grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
-    grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
-    grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
-    grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
-    grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
     font-weight: bolder;
@@ -475,7 +489,7 @@
   .instagram__yani {
     grid-area: instagram__yani; } }
 
-.acuarela__titulo, .formulario__titulo {
+.formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
   text-align: left;
@@ -608,6 +622,7 @@ body footer {
   display: grid;
   grid-template-columns: 100%; }
 
+/*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
   .cuerpoIndex {
@@ -629,6 +644,8 @@ body footer {
 /*Productos*/
 @media screen and (min-width: 600px) {
   .productosEnAcuarela {
+    display: flex;
+    justify-content: space-between;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
@@ -651,7 +668,7 @@ body footer {
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4 " "cardRetrato5 cardRetrato6"; }
+    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
   .cardRetrato1 {
     grid-area: cardRetrato1; }
   .cardRetrato2 {
@@ -689,6 +706,49 @@ body footer {
   .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
 
+/*Sobre mi*/
+@media screen and (min-width: 600px) {
+  .sobremi__titulo {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  .imagen__yani {
+    width: 300px;
+    margin-left: 1rem; }
+  .sobreMi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
+  .sobremi__titulos {
+    grid-area: sobremi__titulo; }
+  .imagen__yani {
+    grid-area: imagen__yani; }
+  .texto__sobremi1 {
+    grid-area: texto__sobremi1; }
+  .subtitulos__sobremi1 {
+    grid-area: subtitulos__sobremi1; }
+  .texto__sobremi2 {
+    grid-area: texto__sobremi2; }
+  .subtitulos__sobremi2 {
+    grid-area: subtitulos__sobremi2; }
+  .texto__sobremi3 {
+    grid-area: texto__sobremi3; }
+  .subtitulos__sobremi3 {
+    grid-area: subtitulos__sobremi3; }
+  .texto__sobremi4 {
+    grid-area: texto__sobremi4; }
+  .instagram__yani {
+    grid-area: instagram__yani; } }
+
+/*Acuarela tips*/
+/*Media queries tamaño desktop*/
+/*Productos*/
 @media screen and (min-width: 1024px) {
   main nav h4 {
     font-weight: bolder;
@@ -762,45 +822,6 @@ body footer {
       grid-area: cardPersonalizados3; } }
 
 /*Sobre mi*/
-@media screen and (min-width: 600px) {
-  .sobremi__titulo {
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
-    margin-left: 1rem; }
-  .sobreMi {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
-    grid-area: sobremi__titulo; }
-  .imagen__yani {
-    grid-area: imagen__yani; }
-  .texto__sobremi1 {
-    grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
-    grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
-    grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
-    grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
-    grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
-    grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
-    grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
     font-weight: bolder;
@@ -841,7 +862,7 @@ body footer {
   .instagram__yani {
     grid-area: instagram__yani; } }
 
-.acuarela__titulo, .formulario__titulo {
+.formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
   text-align: left;
@@ -856,12 +877,23 @@ main h2:hover {
   color: white;
   font-weight: bold; }
 
+.acuarela__titulo {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 15px;
+  margin-top: 1rem;
+  border: 2px palevioletred;
+  color: palevioletred; }
+
 .video__acuarela {
   margin-left: 15px;
   size-adjust: 1rem; }
 
 .texto__acuarela {
-  margin: 1rem;
+  text-align: center;
+  margin: 1.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2rem; }
 
@@ -873,6 +905,7 @@ footer {
   display: grid;
   grid-template-columns: 100%; }
 
+/*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
   .cuerpoIndex {
@@ -894,6 +927,8 @@ footer {
 /*Productos*/
 @media screen and (min-width: 600px) {
   .productosEnAcuarela {
+    display: flex;
+    justify-content: space-between;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
@@ -916,7 +951,7 @@ footer {
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4 " "cardRetrato5 cardRetrato6"; }
+    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
   .cardRetrato1 {
     grid-area: cardRetrato1; }
   .cardRetrato2 {
@@ -954,6 +989,49 @@ footer {
   .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
 
+/*Sobre mi*/
+@media screen and (min-width: 600px) {
+  .sobremi__titulo {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  .imagen__yani {
+    width: 300px;
+    margin-left: 1rem; }
+  .sobreMi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
+  .sobremi__titulos {
+    grid-area: sobremi__titulo; }
+  .imagen__yani {
+    grid-area: imagen__yani; }
+  .texto__sobremi1 {
+    grid-area: texto__sobremi1; }
+  .subtitulos__sobremi1 {
+    grid-area: subtitulos__sobremi1; }
+  .texto__sobremi2 {
+    grid-area: texto__sobremi2; }
+  .subtitulos__sobremi2 {
+    grid-area: subtitulos__sobremi2; }
+  .texto__sobremi3 {
+    grid-area: texto__sobremi3; }
+  .subtitulos__sobremi3 {
+    grid-area: subtitulos__sobremi3; }
+  .texto__sobremi4 {
+    grid-area: texto__sobremi4; }
+  .instagram__yani {
+    grid-area: instagram__yani; } }
+
+/*Acuarela tips*/
+/*Media queries tamaño desktop*/
+/*Productos*/
 @media screen and (min-width: 1024px) {
   main nav h4 {
     font-weight: bolder;
@@ -1027,45 +1105,6 @@ footer {
       grid-area: cardPersonalizados3; } }
 
 /*Sobre mi*/
-@media screen and (min-width: 600px) {
-  .sobremi__titulo {
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
-    margin-left: 1rem; }
-  .sobreMi {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
-    grid-area: sobremi__titulo; }
-  .imagen__yani {
-    grid-area: imagen__yani; }
-  .texto__sobremi1 {
-    grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
-    grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
-    grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
-    grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
-    grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
-    grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
-    grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
     font-weight: bolder;
@@ -1106,7 +1145,7 @@ footer {
   .instagram__yani {
     grid-area: instagram__yani; } }
 
-.acuarela__titulo, .formulario__titulo {
+.formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
   text-align: left;
@@ -1240,6 +1279,7 @@ footer {
   display: grid;
   grid-template-columns: 100%; }
 
+/*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
   .cuerpoIndex {
@@ -1261,6 +1301,8 @@ footer {
 /*Productos*/
 @media screen and (min-width: 600px) {
   .productosEnAcuarela {
+    display: flex;
+    justify-content: space-between;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
@@ -1283,7 +1325,7 @@ footer {
     padding: 2rem;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4 " "cardRetrato5 cardRetrato6"; }
+    grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
   .cardRetrato1 {
     grid-area: cardRetrato1; }
   .cardRetrato2 {
@@ -1321,6 +1363,49 @@ footer {
   .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
 
+/*Sobre mi*/
+@media screen and (min-width: 600px) {
+  .sobremi__titulo {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  .imagen__yani {
+    width: 300px;
+    margin-left: 1rem; }
+  .sobreMi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
+  .sobremi__titulos {
+    grid-area: sobremi__titulo; }
+  .imagen__yani {
+    grid-area: imagen__yani; }
+  .texto__sobremi1 {
+    grid-area: texto__sobremi1; }
+  .subtitulos__sobremi1 {
+    grid-area: subtitulos__sobremi1; }
+  .texto__sobremi2 {
+    grid-area: texto__sobremi2; }
+  .subtitulos__sobremi2 {
+    grid-area: subtitulos__sobremi2; }
+  .texto__sobremi3 {
+    grid-area: texto__sobremi3; }
+  .subtitulos__sobremi3 {
+    grid-area: subtitulos__sobremi3; }
+  .texto__sobremi4 {
+    grid-area: texto__sobremi4; }
+  .instagram__yani {
+    grid-area: instagram__yani; } }
+
+/*Acuarela tips*/
+/*Media queries tamaño desktop*/
+/*Productos*/
 @media screen and (min-width: 1024px) {
   main nav h4 {
     font-weight: bolder;
@@ -1394,45 +1479,6 @@ footer {
       grid-area: cardPersonalizados3; } }
 
 /*Sobre mi*/
-@media screen and (min-width: 600px) {
-  .sobremi__titulo {
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
-    margin-left: 1rem; }
-  .sobreMi {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
-    grid-area: sobremi__titulo; }
-  .imagen__yani {
-    grid-area: imagen__yani; }
-  .texto__sobremi1 {
-    grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
-    grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
-    grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
-    grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
-    grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
-    grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
-    grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
     font-weight: bolder;
@@ -1473,7 +1519,7 @@ footer {
   .instagram__yani {
     grid-area: instagram__yani; } }
 
-.acuarela__titulo, .formulario__titulo {
+.formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
   text-align: left;
