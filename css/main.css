@@ -124,6 +124,26 @@
     grid-area: instagram__yani; } }
 
 /*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
+
+/*contacto*/
+@media screen and (min-width: 600px) {
+  .formulario__contacto {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #f3e7e9;
+    padding: 10px;
+    border: 5px;
+    border-radius: 15px; } }
+
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -374,6 +394,26 @@
     grid-area: instagram__yani; } }
 
 /*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
+
+/*contacto*/
+@media screen and (min-width: 600px) {
+  .formulario__contacto {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #f3e7e9;
+    padding: 10px;
+    border: 5px;
+    border-radius: 15px; } }
+
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -747,6 +787,26 @@ body footer {
     grid-area: instagram__yani; } }
 
 /*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
+
+/*contacto*/
+@media screen and (min-width: 600px) {
+  .formulario__contacto {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #f3e7e9;
+    padding: 10px;
+    border: 5px;
+    border-radius: 15px; } }
+
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -1030,6 +1090,26 @@ footer {
     grid-area: instagram__yani; } }
 
 /*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
+
+/*contacto*/
+@media screen and (min-width: 600px) {
+  .formulario__contacto {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #f3e7e9;
+    padding: 10px;
+    border: 5px;
+    border-radius: 15px; } }
+
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -1404,6 +1484,26 @@ footer {
     grid-area: instagram__yani; } }
 
 /*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
+
+/*contacto*/
+@media screen and (min-width: 600px) {
+  .formulario__contacto {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #f3e7e9;
+    padding: 10px;
+    border: 5px;
+    border-radius: 15px; } }
+
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -1536,12 +1636,15 @@ main form fieldset legend:hover {
 .formulario__contacto {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin: 15px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 60px;
   background-color: #f3e7e9;
   padding: 10px;
   border: 5px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  height: fit-content;
+  width: fit-content; }
 
 footer {
   color: black;

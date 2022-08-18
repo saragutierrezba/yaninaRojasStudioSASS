@@ -207,8 +207,30 @@
 
 /*Acuarela tips*/
 @media screen and (min-width:600px){
-       
+    .video__acuarela{
+        margin-left: 7.5rem;
+        width: 600px;
+        height: 450px;
+    }    
 }
+
+/*contacto*/
+@media screen and (min-width:600px){
+    .formulario__contacto{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 100px;
+        background-color: rgb(243, 231, 233);
+        padding: 10px;
+        border: 5px;
+        border-radius: 15px;
+    }
+}
+    
+
 
 /*Media queries tamaño desktop*/
 /*Productos*/
