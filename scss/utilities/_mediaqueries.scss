@@ -1,142 +1,198 @@
 
 /*Media queries tamaño tablet*/
 /*Index*/
+
 @media screen and (min-width: 600px){
-    .cuerpoIndex{
-        margin: 2rem;
-        padding: 1rem;
-        font-family: 'Josefin Sans', sans-serif;
-        display: grid;
-        grid-template-columns: auto auto ;
-        grid-template-rows: 1fr;
-        grid-template-areas:"conoceProductos conoceProductos"
-                            "parrafo1 parrafo2";
-        grid-area: conoceProductos;
-    }
-    
-    .conoceProductos{
-        grid-area: conoceProductos;
-    }
-    
-    .parrafo1{
-        grid-area: parrafo1;
-    }
-    
-    .parrafo2{
-        grid-area: parrafo2;
-    }
+
+    body{
+        header{
+            div{
+                .nombre__artista {
+                    color: nth($list:$colores,$n:3);
+                    font-size: 2.2rem *2;
+                    font: bold;
+                    font-family: 'Dancing Script', cursive;
+                    margin-top: 38px;
+                    display: grid;
+                    grid-template-columns: 100%; 
+                    }
+               .logo{
+                    width: 20%;
+                    height: 20%;
+                    text-align: left;
+                    margin-top: 1.8rem;
+                    margin-left: 0.5rem;
+                    }
+            }
+        }
+        main{
+            .cuerpoIndex{
+                margin: 2rem;
+                padding: 1rem;
+                font-family: 'Josefin Sans', sans-serif;
+                display: grid;
+                grid-template-columns: auto auto ;
+                grid-template-rows: 1fr;
+                grid-template-areas:"conoceProductos conoceProductos"
+                                    "parrafo1 parrafo2";
+                grid-area: conoceProductos;
+            }
+            
+            .conoceProductos{
+                grid-area: conoceProductos;
+            }
+            
+            .parrafo1{
+                grid-area: parrafo1;
+            }
+            
+            .parrafo2{
+                grid-area: parrafo2;
+            }
+        }
+    } 
 }
+    
 
 /*Productos*/
 
 @media screen and (min-width: 600px){
 
-    .productosEnAcuarela{
-        display: flex;
-        justify-content: space-between;
-        display: grid;
-        padding: 2rem;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto;
-        grid-template-areas: "card1 card2" 
-                             "card3 card4" 
-                             "card5 card6";
-     }
-
-    .card1{
-        grid-area: card1;
-    }
-    .card2{
-        grid-area: card2;
-    }
-    .card3{
-        grid-area: card3;
-    }
-    .card4{
-        grid-area: card4;
-    }
-    .card5{
-        grid-area: card5;
-    }
-    .card6{
-        grid-area: card6;
-    }
-
-    .retratos{
-        display: grid;
-        padding: 2rem;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "cardRetrato1 cardRetrato2"
-                             "cardRetrato3 cardRetrato4"
-                             "cardRetrato5 cardRetrato6";
-    }
-
-    .cardRetrato1{
-        grid-area: cardRetrato1
-    }
-        
-    .cardRetrato2{
-        grid-area: cardRetrato2
-    }
-    .cardRetrato3{
-        grid-area: cardRetrato3
-    }
-    .cardRetrato4{
-        grid-area: cardRetrato4
-    }
-    .cardRetrato5{
-        grid-area: cardRetrato5
-    }
-    .cardRetrato6{
-        grid-area: cardRetrato6
-    }
-
-    .souvenirs{
-        display: grid;
-        padding: 2rem;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "cardSouvenirs1 cardSouvenirs2" 
-                             "cardSouvenirs3";
-    }
-
-        .cardSouvenirs1{
-            grid-area: cardSouvenirs1;
+    body{
+        main{
+            nav{
+                .productosEnAcuarela{
+                    display: flex;
+                    justify-content: space-evenly;
+                    display: grid;
+                    padding: 2rem;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: auto;
+                    grid-template-areas: "card1 card2" 
+                                         "card3 card4" 
+                                         "card5 card6";
+                 }
+            
+                .card1{
+                    grid-area: card1;
+                }
+                .card2{
+                    grid-area: card2;
+                }
+                .card3{
+                    grid-area: card3;
+                }
+                .card4{
+                    grid-area: card4;
+                }
+                .card5{
+                    grid-area: card5;
+                }
+                .card6{
+                    grid-area: card6;
+                }
+            
+                .retratos{
+                    display: flex;
+                    justify-content: space-evenly;
+                    display: grid;
+                    padding: 2rem;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: auto;
+                    grid-template-areas: "cardRetrato1 cardRetrato2"
+                                         "cardRetrato3 cardRetrato4"
+                                         "cardRetrato5 cardRetrato6";
+                }
+            
+                .cardRetrato1{
+                    grid-area: cardRetrato1
+                }
+                    
+                .cardRetrato2{
+                    grid-area: cardRetrato2
+                }
+                .cardRetrato3{
+                    grid-area: cardRetrato3
+                }
+                .cardRetrato4{
+                    grid-area: cardRetrato4
+                }
+                .cardRetrato5{
+                    grid-area: cardRetrato5
+                }
+                .cardRetrato6{
+                    grid-area: cardRetrato6
+                }
+            
+                .souvenirs{
+                    display: flex;
+                    justify-content: space-evenly;
+                    display: grid;
+                    padding: 2rem;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: auto;
+                    grid-template-areas: "cardSouvenirs1 cardSouvenirs2" 
+                                         "cardSouvenirs3 cardSouvenirs3";
+                }
+            
+                    .cardSouvenirs1{
+                        grid-area: cardSouvenirs1;
+                    }
+                    .cardSouvenirs2{
+                        grid-area: cardSouvenirs2;
+                    }
+                    .cardSouvenirs3{
+                        grid-area: cardSouvenirs3;
+                    }
+            
+                .regalosPersonalizados{
+                    display: flex;
+                    justify-content: space-evenly;
+                    display: grid;
+                    padding: 2rem;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: auto;
+                    grid-template-areas: "cardPersonalizados1 cardPersonalizados2"
+                                         "cardPersonalizados3 cardPersonalizados3";
+                }
+            
+                    .cardPersonalizados1{
+                        grid-area: cardPersonalizados1;
+                    }
+                    .cardPersonalizados2{
+                        grid-area: cardPersonalizados2;
+                    }
+                    .cardPersonalizados3{
+                        grid-area: cardPersonalizados3;
+                    }
+            }
         }
-        .cardSouvenirs2{
-            grid-area: cardSouvenirs2;
-        }
-        .cardSouvenirs3{
-            grid-area: cardSouvenirs3;
-        }
-
-    .regalosPersonalizados{
-        display: grid;
-        padding: 2rem;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "cardPersonalizados1 cardPersonalizados2"
-                             "cardPersonalizados3";
     }
 
-        .cardPersonalizados1{
-            grid-area: cardPersonalizados1;
-        }
-        .cardPersonalizados2{
-            grid-area: cardPersonalizados2;
-        }
-        .cardPersonalizados3{
-            grid-area: cardPersonalizados3;
-        }
+    
     }
+
+    /*Acuarela tips*/
+@media screen and (min-width:600px){
+
+    body{
+    .video__acuarela{
+        margin-left: 7.5rem;
+        width: 600px;
+        height: 450px;
+    }
+    }   
+}
 
     /*Sobre mi*/
 @media screen and (min-width:600px){
+
+   body{
+    main{
     .sobremi__titulo{
         font-weight: bolder;
         font-size: 30px;
-        text-align: left;
+        text-align: center;
         font-family: 'Josefin Sans', sans-serif;
         margin-bottom: 1rem;
         margin-left: 1rem;
@@ -145,7 +201,7 @@
     }
 
     .imagen__yani{
-        width: 300px;
+        width: 400px;
         margin-left: 1rem;
     }
     .sobreMi{
@@ -203,28 +259,36 @@
     .instagram__yani{
         grid-area: instagram__yani;
     }
-}
 
-/*Acuarela tips*/
-@media screen and (min-width:600px){
-    .video__acuarela{
-        margin-left: 7.5rem;
-        width: 600px;
-        height: 450px;
-    }    
+    .logoInstagram{
+        width: 8%;
+        margin-left: 23.5rem;
+        display: flex;
+    }
+
+    .texto__sobremi1{
+        padding: 0rem;
+        margin: 0rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem 
+    }
+}
+}
 }
 
 /*contacto*/
+
 @media screen and (min-width:600px){
+    
     .formulario__contacto{
-        font-size: 15px;
+        font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
         justify-content: center;
         text-align: center;
-        margin-left: 100px;
-        background-color: rgb(243, 231, 233);
+        margin-left: 500px;
         padding: 10px;
+        background-color: rgb(243, 231, 233);
         border: 5px;
         border-radius: 15px;
     }
@@ -236,21 +300,11 @@
 /*Productos*/
 
 @media screen and (min-width: 1024px){
+    
+body{
     main{
         nav{
-            h4{
-                font-weight: bolder;
-                font-size: 1.5rem;
-                text-align: left;
-                font-family: 'Josefin Sans', sans-serif;
-                text-decoration: underline;
-                margin-left: 15px;
-                margin-top: 1rem;
-                border: 2px palevioletred;
-                color: nth($list:$colores,$n:2);  
-            }
-        }
-        .productosEnAcuarela{
+         .productosEnAcuarela{
             display: grid;
             padding: 2rem;
             grid-template-columns: auto auto;
@@ -322,26 +376,33 @@
             .cardSouvenirs3{
                 grid-area: cardSouvenirs3;
             }
+            }
+
+            .regalosPersonalizados{
+                display: flex;
+                justify-content: space-evenly;
+                display: grid;
+                padding: 2rem;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto;
+                grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3";
+                .cardPersonalizados1{
+                    grid-area: cardPersonalizados1;
+                }
+                .cardPersonalizados2{
+                    grid-area: cardPersonalizados2;
+                }
+                .cardPersonalizados3{
+                    grid-area: cardPersonalizados3;
+                }
+            }
         }
-    
-        .regalosPersonalizados{
-            display: grid;
-            padding: 2rem;
-            grid-template-columns: auto;
-            grid-template-rows: auto;
-            grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3";
-            .cardPersonalizados1{
-                grid-area: cardPersonalizados1;
-            }
-            .cardPersonalizados2{
-                grid-area: cardPersonalizados2;
-            }
-            .cardPersonalizados3{
-                grid-area: cardPersonalizados3;
-            }
-        }
+        
     }
 }
+}
+
+/*Acuarela tips*/
 
 
 /*Sobre mi*/
@@ -419,3 +480,5 @@
         grid-area: instagram__yani;
     }
 }
+
+/*Contacto*/

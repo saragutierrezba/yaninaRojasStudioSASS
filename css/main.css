@@ -1,8 +1,32 @@
 @charset "UTF-8";
+.formulario__titulo {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 15px;
+  margin-top: 1rem;
+  border: 2px palevioletred;
+  color: palevioletred; }
+
 /*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
-  .cuerpoIndex {
+  body header div .nombre__artista {
+    color: white;
+    font-size: 4.4rem;
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 100%; }
+  body header div .logo {
+    width: 20%;
+    height: 20%;
+    text-align: left;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem; }
+  body main .cuerpoIndex {
     margin: 2rem;
     padding: 1rem;
     font-family: 'Josefin Sans', sans-serif;
@@ -11,213 +35,221 @@
     grid-template-rows: 1fr;
     grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
     grid-area: conoceProductos; }
-  .conoceProductos {
+  body main .conoceProductos {
     grid-area: conoceProductos; }
-  .parrafo1 {
+  body main .parrafo1 {
     grid-area: parrafo1; }
-  .parrafo2 {
+  body main .parrafo2 {
     grid-area: parrafo2; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
-  .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2"  "card3 card4"  "card5 card6"; }
-  .card1 {
+  body main nav .card1 {
     grid-area: card1; }
-  .card2 {
+  body main nav .card2 {
     grid-area: card2; }
-  .card3 {
+  body main nav .card3 {
     grid-area: card3; }
-  .card4 {
+  body main nav .card4 {
     grid-area: card4; }
-  .card5 {
+  body main nav .card5 {
     grid-area: card5; }
-  .card6 {
+  body main nav .card6 {
     grid-area: card6; }
-  .retratos {
+  body main nav .retratos {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
-  .cardRetrato1 {
+  body main nav .cardRetrato1 {
     grid-area: cardRetrato1; }
-  .cardRetrato2 {
+  body main nav .cardRetrato2 {
     grid-area: cardRetrato2; }
-  .cardRetrato3 {
+  body main nav .cardRetrato3 {
     grid-area: cardRetrato3; }
-  .cardRetrato4 {
+  body main nav .cardRetrato4 {
     grid-area: cardRetrato4; }
-  .cardRetrato5 {
+  body main nav .cardRetrato5 {
     grid-area: cardRetrato5; }
-  .cardRetrato6 {
+  body main nav .cardRetrato6 {
     grid-area: cardRetrato6; }
-  .souvenirs {
+  body main nav .souvenirs {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3"; }
-  .cardSouvenirs1 {
+    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3 cardSouvenirs3"; }
+  body main nav .cardSouvenirs1 {
     grid-area: cardSouvenirs1; }
-  .cardSouvenirs2 {
+  body main nav .cardSouvenirs2 {
     grid-area: cardSouvenirs2; }
-  .cardSouvenirs3 {
+  body main nav .cardSouvenirs3 {
     grid-area: cardSouvenirs3; }
-  .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3"; }
-  .cardPersonalizados1 {
+    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3 cardPersonalizados3"; }
+  body main nav .cardPersonalizados1 {
     grid-area: cardPersonalizados1; }
-  .cardPersonalizados2 {
+  body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
-  .cardPersonalizados3 {
+  body main nav .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
+
+/*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  body .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
-  .sobremi__titulo {
+  body main .sobremi__titulo {
     font-weight: bolder;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1rem;
     margin-left: 1rem;
     border: 2px palevioletred;
     color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
+  body main .imagen__yani {
+    width: 400px;
     margin-left: 1rem; }
-  .sobreMi {
+  body main .sobreMi {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
+  body main .sobremi__titulos {
     grid-area: sobremi__titulo; }
-  .imagen__yani {
+  body main .imagen__yani {
     grid-area: imagen__yani; }
-  .texto__sobremi1 {
+  body main .texto__sobremi1 {
     grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
+  body main .subtitulos__sobremi1 {
     grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
+  body main .texto__sobremi2 {
     grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
+  body main .subtitulos__sobremi2 {
     grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
+  body main .texto__sobremi3 {
     grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
+  body main .subtitulos__sobremi3 {
     grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
+  body main .texto__sobremi4 {
     grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
-/*Acuarela tips*/
-@media screen and (min-width: 600px) {
-  .video__acuarela {
-    margin-left: 7.5rem;
-    width: 600px;
-    height: 450px; } }
+  body main .instagram__yani {
+    grid-area: instagram__yani; }
+  body main .logoInstagram {
+    width: 8%;
+    margin-left: 23.5rem;
+    display: flex; }
+  body main .texto__sobremi1 {
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
   .formulario__contacto {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 100px;
-    background-color: #f3e7e9;
+    margin-left: 500px;
     padding: 10px;
+    background-color: #f3e7e9;
     border: 5px;
     border-radius: 15px; } }
 
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
-  main nav h4 {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: underline;
-    margin-left: 15px;
-    margin-top: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  main .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
-    main .productosEnAcuarela .card1 {
+    body main nav .productosEnAcuarela .card1 {
       grid-area: card1; }
-    main .productosEnAcuarela .card2 {
+    body main nav .productosEnAcuarela .card2 {
       grid-area: card2; }
-    main .productosEnAcuarela .card3 {
+    body main nav .productosEnAcuarela .card3 {
       grid-area: card3; }
-    main .productosEnAcuarela .card4 {
+    body main nav .productosEnAcuarela .card4 {
       grid-area: card4; }
-    main .productosEnAcuarela .card5 {
+    body main nav .productosEnAcuarela .card5 {
       grid-area: card5; }
-    main .productosEnAcuarela .card6 {
+    body main nav .productosEnAcuarela .card6 {
       grid-area: card6; }
-  main .retratos {
+  body main nav .retratos {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
-    main .retratos .cardRetrato1 {
+    body main nav .retratos .cardRetrato1 {
       grid-area: cardRetrato1; }
-    main .retratos .cardRetrato2 {
+    body main nav .retratos .cardRetrato2 {
       grid-area: cardRetrato2; }
-    main .retratos .cardRetrato3 {
+    body main nav .retratos .cardRetrato3 {
       grid-area: cardRetrato3; }
-    main .retratos .cardRetrato4 {
+    body main nav .retratos .cardRetrato4 {
       grid-area: cardRetrato4; }
-    main .retratos .cardRetrato5 {
+    body main nav .retratos .cardRetrato5 {
       grid-area: cardRetrato5; }
-    main .retratos .cardRetrato6 {
+    body main nav .retratos .cardRetrato6 {
       grid-area: cardRetrato6; }
-  main .souvenirs {
+  body main nav .souvenirs {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
-    main .souvenirs .cardSouvenirs1 {
+    body main nav .souvenirs .cardSouvenirs1 {
       grid-area: cardSouvenirs1; }
-    main .souvenirs .cardSouvenirs2 {
+    body main nav .souvenirs .cardSouvenirs2 {
       grid-area: cardSouvenirs2; }
-    main .souvenirs .cardSouvenirs3 {
+    body main nav .souvenirs .cardSouvenirs3 {
       grid-area: cardSouvenirs3; }
-  main .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
-    main .regalosPersonalizados .cardPersonalizados1 {
+    body main nav .regalosPersonalizados .cardPersonalizados1 {
       grid-area: cardPersonalizados1; }
-    main .regalosPersonalizados .cardPersonalizados2 {
+    body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
-    main .regalosPersonalizados .cardPersonalizados3 {
+    body main nav .regalosPersonalizados .cardPersonalizados3 {
       grid-area: cardPersonalizados3; } }
 
+/*Acuarela tips*/
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
@@ -259,6 +291,7 @@
   .instagram__yani {
     grid-area: instagram__yani; } }
 
+/*Contacto*/
 .formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
@@ -272,7 +305,21 @@
 /*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
-  .cuerpoIndex {
+  body header div .nombre__artista {
+    color: white;
+    font-size: 4.4rem;
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 100%; }
+  body header div .logo {
+    width: 20%;
+    height: 20%;
+    text-align: left;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem; }
+  body main .cuerpoIndex {
     margin: 2rem;
     padding: 1rem;
     font-family: 'Josefin Sans', sans-serif;
@@ -281,213 +328,221 @@
     grid-template-rows: 1fr;
     grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
     grid-area: conoceProductos; }
-  .conoceProductos {
+  body main .conoceProductos {
     grid-area: conoceProductos; }
-  .parrafo1 {
+  body main .parrafo1 {
     grid-area: parrafo1; }
-  .parrafo2 {
+  body main .parrafo2 {
     grid-area: parrafo2; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
-  .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2"  "card3 card4"  "card5 card6"; }
-  .card1 {
+  body main nav .card1 {
     grid-area: card1; }
-  .card2 {
+  body main nav .card2 {
     grid-area: card2; }
-  .card3 {
+  body main nav .card3 {
     grid-area: card3; }
-  .card4 {
+  body main nav .card4 {
     grid-area: card4; }
-  .card5 {
+  body main nav .card5 {
     grid-area: card5; }
-  .card6 {
+  body main nav .card6 {
     grid-area: card6; }
-  .retratos {
+  body main nav .retratos {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
-  .cardRetrato1 {
+  body main nav .cardRetrato1 {
     grid-area: cardRetrato1; }
-  .cardRetrato2 {
+  body main nav .cardRetrato2 {
     grid-area: cardRetrato2; }
-  .cardRetrato3 {
+  body main nav .cardRetrato3 {
     grid-area: cardRetrato3; }
-  .cardRetrato4 {
+  body main nav .cardRetrato4 {
     grid-area: cardRetrato4; }
-  .cardRetrato5 {
+  body main nav .cardRetrato5 {
     grid-area: cardRetrato5; }
-  .cardRetrato6 {
+  body main nav .cardRetrato6 {
     grid-area: cardRetrato6; }
-  .souvenirs {
+  body main nav .souvenirs {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3"; }
-  .cardSouvenirs1 {
+    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3 cardSouvenirs3"; }
+  body main nav .cardSouvenirs1 {
     grid-area: cardSouvenirs1; }
-  .cardSouvenirs2 {
+  body main nav .cardSouvenirs2 {
     grid-area: cardSouvenirs2; }
-  .cardSouvenirs3 {
+  body main nav .cardSouvenirs3 {
     grid-area: cardSouvenirs3; }
-  .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3"; }
-  .cardPersonalizados1 {
+    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3 cardPersonalizados3"; }
+  body main nav .cardPersonalizados1 {
     grid-area: cardPersonalizados1; }
-  .cardPersonalizados2 {
+  body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
-  .cardPersonalizados3 {
+  body main nav .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
+
+/*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  body .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
-  .sobremi__titulo {
+  body main .sobremi__titulo {
     font-weight: bolder;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1rem;
     margin-left: 1rem;
     border: 2px palevioletred;
     color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
+  body main .imagen__yani {
+    width: 400px;
     margin-left: 1rem; }
-  .sobreMi {
+  body main .sobreMi {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
+  body main .sobremi__titulos {
     grid-area: sobremi__titulo; }
-  .imagen__yani {
+  body main .imagen__yani {
     grid-area: imagen__yani; }
-  .texto__sobremi1 {
+  body main .texto__sobremi1 {
     grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
+  body main .subtitulos__sobremi1 {
     grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
+  body main .texto__sobremi2 {
     grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
+  body main .subtitulos__sobremi2 {
     grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
+  body main .texto__sobremi3 {
     grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
+  body main .subtitulos__sobremi3 {
     grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
+  body main .texto__sobremi4 {
     grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
-/*Acuarela tips*/
-@media screen and (min-width: 600px) {
-  .video__acuarela {
-    margin-left: 7.5rem;
-    width: 600px;
-    height: 450px; } }
+  body main .instagram__yani {
+    grid-area: instagram__yani; }
+  body main .logoInstagram {
+    width: 8%;
+    margin-left: 23.5rem;
+    display: flex; }
+  body main .texto__sobremi1 {
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
   .formulario__contacto {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 100px;
-    background-color: #f3e7e9;
+    margin-left: 500px;
     padding: 10px;
+    background-color: #f3e7e9;
     border: 5px;
     border-radius: 15px; } }
 
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
-  main nav h4 {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: underline;
-    margin-left: 15px;
-    margin-top: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  main .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
-    main .productosEnAcuarela .card1 {
+    body main nav .productosEnAcuarela .card1 {
       grid-area: card1; }
-    main .productosEnAcuarela .card2 {
+    body main nav .productosEnAcuarela .card2 {
       grid-area: card2; }
-    main .productosEnAcuarela .card3 {
+    body main nav .productosEnAcuarela .card3 {
       grid-area: card3; }
-    main .productosEnAcuarela .card4 {
+    body main nav .productosEnAcuarela .card4 {
       grid-area: card4; }
-    main .productosEnAcuarela .card5 {
+    body main nav .productosEnAcuarela .card5 {
       grid-area: card5; }
-    main .productosEnAcuarela .card6 {
+    body main nav .productosEnAcuarela .card6 {
       grid-area: card6; }
-  main .retratos {
+  body main nav .retratos {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
-    main .retratos .cardRetrato1 {
+    body main nav .retratos .cardRetrato1 {
       grid-area: cardRetrato1; }
-    main .retratos .cardRetrato2 {
+    body main nav .retratos .cardRetrato2 {
       grid-area: cardRetrato2; }
-    main .retratos .cardRetrato3 {
+    body main nav .retratos .cardRetrato3 {
       grid-area: cardRetrato3; }
-    main .retratos .cardRetrato4 {
+    body main nav .retratos .cardRetrato4 {
       grid-area: cardRetrato4; }
-    main .retratos .cardRetrato5 {
+    body main nav .retratos .cardRetrato5 {
       grid-area: cardRetrato5; }
-    main .retratos .cardRetrato6 {
+    body main nav .retratos .cardRetrato6 {
       grid-area: cardRetrato6; }
-  main .souvenirs {
+  body main nav .souvenirs {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
-    main .souvenirs .cardSouvenirs1 {
+    body main nav .souvenirs .cardSouvenirs1 {
       grid-area: cardSouvenirs1; }
-    main .souvenirs .cardSouvenirs2 {
+    body main nav .souvenirs .cardSouvenirs2 {
       grid-area: cardSouvenirs2; }
-    main .souvenirs .cardSouvenirs3 {
+    body main nav .souvenirs .cardSouvenirs3 {
       grid-area: cardSouvenirs3; }
-  main .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
-    main .regalosPersonalizados .cardPersonalizados1 {
+    body main nav .regalosPersonalizados .cardPersonalizados1 {
       grid-area: cardPersonalizados1; }
-    main .regalosPersonalizados .cardPersonalizados2 {
+    body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
-    main .regalosPersonalizados .cardPersonalizados3 {
+    body main nav .regalosPersonalizados .cardPersonalizados3 {
       grid-area: cardPersonalizados3; } }
 
+/*Acuarela tips*/
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
@@ -529,143 +584,144 @@
   .instagram__yani {
     grid-area: instagram__yani; } }
 
-.formulario__titulo {
-  font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 15px;
-  margin-top: 1rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-/*Estilos de Productos*/
-body header main h3:hover {
-  color: white;
-  font-weight: bold; }
-
-body header .productos__menu {
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  margin-left: 5px;
-  background-color: pink;
-  border-radius: 20px;
-  padding: 5px;
-  margin: 15px;
-  border: double white;
-  color: black; }
-
-body main h3 {
-  font-weight: bolder;
-  font-size: 2rem;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 15px;
-  margin-top: 1rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-body main nav h4 {
-  font-weight: bolder;
-  font-size: 25px;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  text-decoration: underline;
-  margin-left: 1rem;
-  margin-top: 0.8rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-body main nav .productosEnAcuarela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas: "card1"  "card2"  "card3" "card4"  "card5"  "card6"; }
-  body main nav .productosEnAcuarela .card1 {
-    grid-area: card1; }
-  body main nav .productosEnAcuarela .card2 {
-    grid-area: card2; }
-  body main nav .productosEnAcuarela .card3 {
-    grid-area: card3; }
-  body main nav .productosEnAcuarela .card4 {
-    grid-area: card4; }
-  body main nav .productosEnAcuarela .card5 {
-    grid-area: card5; }
-  body main nav .productosEnAcuarela .card6 {
-    grid-area: card6; }
-
-body main nav .retratos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas: "cardRetrato1"  "cardRetrato2"  "cardRetrato3" "cardRetrato4"  "cardRetrato5"  "cardRetrato6"; }
-  body main nav .retratos .cardRetrato1 {
-    grid-area: cardRetrato1; }
-  body main nav .retratos .cardRetrato2 {
-    grid-area: cardRetrato2; }
-  body main nav .retratos .cardRetrato3 {
-    grid-area: cardRetrato3; }
-  body main nav .retratos .cardRetrato4 {
-    grid-area: cardRetrato4; }
-  body main nav .retratos .cardRetrato5 {
-    grid-area: cardRetrato5; }
-  body main nav .retratos .cardRetrato6 {
-    grid-area: cardRetrato6; }
-
-body main nav .souvenirs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas: "cardSouvenirs1" "cardSouvenirs2"  "cardSouvenirs3"; }
-  body main nav .souvenirs .cardSouvenirs1 {
-    grid-area: cardSouvenirs1; }
-  body main nav .souvenirs .cardSouvenirs2 {
-    grid-area: cardSouvenirs2; }
-  body main nav .souvenirs .cardSouvenirs3 {
-    grid-area: cardSouvenirs3; }
-
-body main nav .regalosPersonalizados {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas: "cardPersonalizados1"  "cardPersonalizados2"  "cardPersonalizados3"; }
-  body main nav .regalosPersonalizados .cardPersonalizados1 {
-    grid-area: cardPersonalizados1; }
-  body main nav .regalosPersonalizados .cardPersonalizados2 {
-    grid-area: cardPersonalizados2; }
-  body main nav .regalosPersonalizados .cardPersonalizados3 {
-    grid-area: cardPersonalizados3; }
-
-body footer {
-  color: black;
-  text-align: right;
-  font-size: 0.8rem;
-  margin-right: 1rem;
-  display: grid;
-  grid-template-columns: 100%; }
+/*Contacto*/
+/*Estilos de Productos para móvil*/
+@media screen and (min-width: 320px) {
+  body header main h3:hover {
+    color: white;
+    font-weight: bold; }
+  body header .productos__menu {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 5px;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px;
+    border: double white;
+    color: black; }
+  body main h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 15px;
+    margin-top: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  body main nav h4 {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  body main nav .productosEnAcuarela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "card1"  "card2"  "card3" "card4"  "card5"  "card6"; }
+    body main nav .productosEnAcuarela .card1 {
+      grid-area: card1; }
+    body main nav .productosEnAcuarela .card2 {
+      grid-area: card2; }
+    body main nav .productosEnAcuarela .card3 {
+      grid-area: card3; }
+    body main nav .productosEnAcuarela .card4 {
+      grid-area: card4; }
+    body main nav .productosEnAcuarela .card5 {
+      grid-area: card5; }
+    body main nav .productosEnAcuarela .card6 {
+      grid-area: card6; }
+  body main nav .retratos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardRetrato1"  "cardRetrato2"  "cardRetrato3" "cardRetrato4"  "cardRetrato5"  "cardRetrato6"; }
+    body main nav .retratos .cardRetrato1 {
+      grid-area: cardRetrato1; }
+    body main nav .retratos .cardRetrato2 {
+      grid-area: cardRetrato2; }
+    body main nav .retratos .cardRetrato3 {
+      grid-area: cardRetrato3; }
+    body main nav .retratos .cardRetrato4 {
+      grid-area: cardRetrato4; }
+    body main nav .retratos .cardRetrato5 {
+      grid-area: cardRetrato5; }
+    body main nav .retratos .cardRetrato6 {
+      grid-area: cardRetrato6; }
+  body main nav .souvenirs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardSouvenirs1" "cardSouvenirs2"  "cardSouvenirs3"; }
+    body main nav .souvenirs .cardSouvenirs1 {
+      grid-area: cardSouvenirs1; }
+    body main nav .souvenirs .cardSouvenirs2 {
+      grid-area: cardSouvenirs2; }
+    body main nav .souvenirs .cardSouvenirs3 {
+      grid-area: cardSouvenirs3; }
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "cardPersonalizados1"  "cardPersonalizados2"  "cardPersonalizados3"; }
+    body main nav .regalosPersonalizados .cardPersonalizados1 {
+      grid-area: cardPersonalizados1; }
+    body main nav .regalosPersonalizados .cardPersonalizados2 {
+      grid-area: cardPersonalizados2; }
+    body main nav .regalosPersonalizados .cardPersonalizados3 {
+      grid-area: cardPersonalizados3; }
+  body footer {
+    color: black;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: 100%; } }
 
 /*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
-  .cuerpoIndex {
+  body header div .nombre__artista {
+    color: white;
+    font-size: 4.4rem;
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 100%; }
+  body header div .logo {
+    width: 20%;
+    height: 20%;
+    text-align: left;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem; }
+  body main .cuerpoIndex {
     margin: 2rem;
     padding: 1rem;
     font-family: 'Josefin Sans', sans-serif;
@@ -674,213 +730,221 @@ body footer {
     grid-template-rows: 1fr;
     grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
     grid-area: conoceProductos; }
-  .conoceProductos {
+  body main .conoceProductos {
     grid-area: conoceProductos; }
-  .parrafo1 {
+  body main .parrafo1 {
     grid-area: parrafo1; }
-  .parrafo2 {
+  body main .parrafo2 {
     grid-area: parrafo2; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
-  .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2"  "card3 card4"  "card5 card6"; }
-  .card1 {
+  body main nav .card1 {
     grid-area: card1; }
-  .card2 {
+  body main nav .card2 {
     grid-area: card2; }
-  .card3 {
+  body main nav .card3 {
     grid-area: card3; }
-  .card4 {
+  body main nav .card4 {
     grid-area: card4; }
-  .card5 {
+  body main nav .card5 {
     grid-area: card5; }
-  .card6 {
+  body main nav .card6 {
     grid-area: card6; }
-  .retratos {
+  body main nav .retratos {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
-  .cardRetrato1 {
+  body main nav .cardRetrato1 {
     grid-area: cardRetrato1; }
-  .cardRetrato2 {
+  body main nav .cardRetrato2 {
     grid-area: cardRetrato2; }
-  .cardRetrato3 {
+  body main nav .cardRetrato3 {
     grid-area: cardRetrato3; }
-  .cardRetrato4 {
+  body main nav .cardRetrato4 {
     grid-area: cardRetrato4; }
-  .cardRetrato5 {
+  body main nav .cardRetrato5 {
     grid-area: cardRetrato5; }
-  .cardRetrato6 {
+  body main nav .cardRetrato6 {
     grid-area: cardRetrato6; }
-  .souvenirs {
+  body main nav .souvenirs {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3"; }
-  .cardSouvenirs1 {
+    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3 cardSouvenirs3"; }
+  body main nav .cardSouvenirs1 {
     grid-area: cardSouvenirs1; }
-  .cardSouvenirs2 {
+  body main nav .cardSouvenirs2 {
     grid-area: cardSouvenirs2; }
-  .cardSouvenirs3 {
+  body main nav .cardSouvenirs3 {
     grid-area: cardSouvenirs3; }
-  .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3"; }
-  .cardPersonalizados1 {
+    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3 cardPersonalizados3"; }
+  body main nav .cardPersonalizados1 {
     grid-area: cardPersonalizados1; }
-  .cardPersonalizados2 {
+  body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
-  .cardPersonalizados3 {
+  body main nav .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
+
+/*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  body .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
-  .sobremi__titulo {
+  body main .sobremi__titulo {
     font-weight: bolder;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1rem;
     margin-left: 1rem;
     border: 2px palevioletred;
     color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
+  body main .imagen__yani {
+    width: 400px;
     margin-left: 1rem; }
-  .sobreMi {
+  body main .sobreMi {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
+  body main .sobremi__titulos {
     grid-area: sobremi__titulo; }
-  .imagen__yani {
+  body main .imagen__yani {
     grid-area: imagen__yani; }
-  .texto__sobremi1 {
+  body main .texto__sobremi1 {
     grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
+  body main .subtitulos__sobremi1 {
     grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
+  body main .texto__sobremi2 {
     grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
+  body main .subtitulos__sobremi2 {
     grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
+  body main .texto__sobremi3 {
     grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
+  body main .subtitulos__sobremi3 {
     grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
+  body main .texto__sobremi4 {
     grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
-/*Acuarela tips*/
-@media screen and (min-width: 600px) {
-  .video__acuarela {
-    margin-left: 7.5rem;
-    width: 600px;
-    height: 450px; } }
+  body main .instagram__yani {
+    grid-area: instagram__yani; }
+  body main .logoInstagram {
+    width: 8%;
+    margin-left: 23.5rem;
+    display: flex; }
+  body main .texto__sobremi1 {
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
   .formulario__contacto {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 100px;
-    background-color: #f3e7e9;
+    margin-left: 500px;
     padding: 10px;
+    background-color: #f3e7e9;
     border: 5px;
     border-radius: 15px; } }
 
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
-  main nav h4 {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: underline;
-    margin-left: 15px;
-    margin-top: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  main .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
-    main .productosEnAcuarela .card1 {
+    body main nav .productosEnAcuarela .card1 {
       grid-area: card1; }
-    main .productosEnAcuarela .card2 {
+    body main nav .productosEnAcuarela .card2 {
       grid-area: card2; }
-    main .productosEnAcuarela .card3 {
+    body main nav .productosEnAcuarela .card3 {
       grid-area: card3; }
-    main .productosEnAcuarela .card4 {
+    body main nav .productosEnAcuarela .card4 {
       grid-area: card4; }
-    main .productosEnAcuarela .card5 {
+    body main nav .productosEnAcuarela .card5 {
       grid-area: card5; }
-    main .productosEnAcuarela .card6 {
+    body main nav .productosEnAcuarela .card6 {
       grid-area: card6; }
-  main .retratos {
+  body main nav .retratos {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
-    main .retratos .cardRetrato1 {
+    body main nav .retratos .cardRetrato1 {
       grid-area: cardRetrato1; }
-    main .retratos .cardRetrato2 {
+    body main nav .retratos .cardRetrato2 {
       grid-area: cardRetrato2; }
-    main .retratos .cardRetrato3 {
+    body main nav .retratos .cardRetrato3 {
       grid-area: cardRetrato3; }
-    main .retratos .cardRetrato4 {
+    body main nav .retratos .cardRetrato4 {
       grid-area: cardRetrato4; }
-    main .retratos .cardRetrato5 {
+    body main nav .retratos .cardRetrato5 {
       grid-area: cardRetrato5; }
-    main .retratos .cardRetrato6 {
+    body main nav .retratos .cardRetrato6 {
       grid-area: cardRetrato6; }
-  main .souvenirs {
+  body main nav .souvenirs {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
-    main .souvenirs .cardSouvenirs1 {
+    body main nav .souvenirs .cardSouvenirs1 {
       grid-area: cardSouvenirs1; }
-    main .souvenirs .cardSouvenirs2 {
+    body main nav .souvenirs .cardSouvenirs2 {
       grid-area: cardSouvenirs2; }
-    main .souvenirs .cardSouvenirs3 {
+    body main nav .souvenirs .cardSouvenirs3 {
       grid-area: cardSouvenirs3; }
-  main .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
-    main .regalosPersonalizados .cardPersonalizados1 {
+    body main nav .regalosPersonalizados .cardPersonalizados1 {
       grid-area: cardPersonalizados1; }
-    main .regalosPersonalizados .cardPersonalizados2 {
+    body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
-    main .regalosPersonalizados .cardPersonalizados3 {
+    body main nav .regalosPersonalizados .cardPersonalizados3 {
       grid-area: cardPersonalizados3; } }
 
+/*Acuarela tips*/
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
@@ -922,6 +986,7 @@ body footer {
   .instagram__yani {
     grid-area: instagram__yani; } }
 
+/*Contacto*/
 .formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
@@ -932,43 +997,54 @@ body footer {
   border: 2px palevioletred;
   color: palevioletred; }
 
-/*Estilos de Acuarela tips*/
-main h2:hover {
-  color: white;
-  font-weight: bold; }
-
-.acuarela__titulo {
-  font-weight: bolder;
-  font-size: 2rem;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 15px;
-  margin-top: 1rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-.video__acuarela {
-  margin-left: 15px;
-  size-adjust: 1rem; }
-
-.texto__acuarela {
-  text-align: center;
-  margin: 1.5rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.2rem; }
-
-footer {
-  color: black;
-  text-align: right;
-  font-size: 0.8rem;
-  margin-right: 1rem;
-  display: grid;
-  grid-template-columns: 100%; }
+/*Estilos de Acuarela tips para móvil*/
+@media screen and (min-width: 320px) {
+  body main h2:hover {
+    color: white;
+    font-weight: bold; }
+  body .acuarela__titulo {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 15px;
+    margin-top: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  body .video__acuarela {
+    margin-left: 15px;
+    size-adjust: 1rem; }
+  body .texto__acuarela {
+    text-align: center;
+    margin: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; }
+  body footer {
+    color: black;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: 100%; } }
 
 /*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
-  .cuerpoIndex {
+  body header div .nombre__artista {
+    color: white;
+    font-size: 4.4rem;
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 100%; }
+  body header div .logo {
+    width: 20%;
+    height: 20%;
+    text-align: left;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem; }
+  body main .cuerpoIndex {
     margin: 2rem;
     padding: 1rem;
     font-family: 'Josefin Sans', sans-serif;
@@ -977,213 +1053,221 @@ footer {
     grid-template-rows: 1fr;
     grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
     grid-area: conoceProductos; }
-  .conoceProductos {
+  body main .conoceProductos {
     grid-area: conoceProductos; }
-  .parrafo1 {
+  body main .parrafo1 {
     grid-area: parrafo1; }
-  .parrafo2 {
+  body main .parrafo2 {
     grid-area: parrafo2; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
-  .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2"  "card3 card4"  "card5 card6"; }
-  .card1 {
+  body main nav .card1 {
     grid-area: card1; }
-  .card2 {
+  body main nav .card2 {
     grid-area: card2; }
-  .card3 {
+  body main nav .card3 {
     grid-area: card3; }
-  .card4 {
+  body main nav .card4 {
     grid-area: card4; }
-  .card5 {
+  body main nav .card5 {
     grid-area: card5; }
-  .card6 {
+  body main nav .card6 {
     grid-area: card6; }
-  .retratos {
+  body main nav .retratos {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
-  .cardRetrato1 {
+  body main nav .cardRetrato1 {
     grid-area: cardRetrato1; }
-  .cardRetrato2 {
+  body main nav .cardRetrato2 {
     grid-area: cardRetrato2; }
-  .cardRetrato3 {
+  body main nav .cardRetrato3 {
     grid-area: cardRetrato3; }
-  .cardRetrato4 {
+  body main nav .cardRetrato4 {
     grid-area: cardRetrato4; }
-  .cardRetrato5 {
+  body main nav .cardRetrato5 {
     grid-area: cardRetrato5; }
-  .cardRetrato6 {
+  body main nav .cardRetrato6 {
     grid-area: cardRetrato6; }
-  .souvenirs {
+  body main nav .souvenirs {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3"; }
-  .cardSouvenirs1 {
+    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3 cardSouvenirs3"; }
+  body main nav .cardSouvenirs1 {
     grid-area: cardSouvenirs1; }
-  .cardSouvenirs2 {
+  body main nav .cardSouvenirs2 {
     grid-area: cardSouvenirs2; }
-  .cardSouvenirs3 {
+  body main nav .cardSouvenirs3 {
     grid-area: cardSouvenirs3; }
-  .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3"; }
-  .cardPersonalizados1 {
+    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3 cardPersonalizados3"; }
+  body main nav .cardPersonalizados1 {
     grid-area: cardPersonalizados1; }
-  .cardPersonalizados2 {
+  body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
-  .cardPersonalizados3 {
+  body main nav .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
+
+/*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  body .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
-  .sobremi__titulo {
+  body main .sobremi__titulo {
     font-weight: bolder;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1rem;
     margin-left: 1rem;
     border: 2px palevioletred;
     color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
+  body main .imagen__yani {
+    width: 400px;
     margin-left: 1rem; }
-  .sobreMi {
+  body main .sobreMi {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
+  body main .sobremi__titulos {
     grid-area: sobremi__titulo; }
-  .imagen__yani {
+  body main .imagen__yani {
     grid-area: imagen__yani; }
-  .texto__sobremi1 {
+  body main .texto__sobremi1 {
     grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
+  body main .subtitulos__sobremi1 {
     grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
+  body main .texto__sobremi2 {
     grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
+  body main .subtitulos__sobremi2 {
     grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
+  body main .texto__sobremi3 {
     grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
+  body main .subtitulos__sobremi3 {
     grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
+  body main .texto__sobremi4 {
     grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
-/*Acuarela tips*/
-@media screen and (min-width: 600px) {
-  .video__acuarela {
-    margin-left: 7.5rem;
-    width: 600px;
-    height: 450px; } }
+  body main .instagram__yani {
+    grid-area: instagram__yani; }
+  body main .logoInstagram {
+    width: 8%;
+    margin-left: 23.5rem;
+    display: flex; }
+  body main .texto__sobremi1 {
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
   .formulario__contacto {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 100px;
-    background-color: #f3e7e9;
+    margin-left: 500px;
     padding: 10px;
+    background-color: #f3e7e9;
     border: 5px;
     border-radius: 15px; } }
 
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
-  main nav h4 {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: underline;
-    margin-left: 15px;
-    margin-top: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  main .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
-    main .productosEnAcuarela .card1 {
+    body main nav .productosEnAcuarela .card1 {
       grid-area: card1; }
-    main .productosEnAcuarela .card2 {
+    body main nav .productosEnAcuarela .card2 {
       grid-area: card2; }
-    main .productosEnAcuarela .card3 {
+    body main nav .productosEnAcuarela .card3 {
       grid-area: card3; }
-    main .productosEnAcuarela .card4 {
+    body main nav .productosEnAcuarela .card4 {
       grid-area: card4; }
-    main .productosEnAcuarela .card5 {
+    body main nav .productosEnAcuarela .card5 {
       grid-area: card5; }
-    main .productosEnAcuarela .card6 {
+    body main nav .productosEnAcuarela .card6 {
       grid-area: card6; }
-  main .retratos {
+  body main nav .retratos {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
-    main .retratos .cardRetrato1 {
+    body main nav .retratos .cardRetrato1 {
       grid-area: cardRetrato1; }
-    main .retratos .cardRetrato2 {
+    body main nav .retratos .cardRetrato2 {
       grid-area: cardRetrato2; }
-    main .retratos .cardRetrato3 {
+    body main nav .retratos .cardRetrato3 {
       grid-area: cardRetrato3; }
-    main .retratos .cardRetrato4 {
+    body main nav .retratos .cardRetrato4 {
       grid-area: cardRetrato4; }
-    main .retratos .cardRetrato5 {
+    body main nav .retratos .cardRetrato5 {
       grid-area: cardRetrato5; }
-    main .retratos .cardRetrato6 {
+    body main nav .retratos .cardRetrato6 {
       grid-area: cardRetrato6; }
-  main .souvenirs {
+  body main nav .souvenirs {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
-    main .souvenirs .cardSouvenirs1 {
+    body main nav .souvenirs .cardSouvenirs1 {
       grid-area: cardSouvenirs1; }
-    main .souvenirs .cardSouvenirs2 {
+    body main nav .souvenirs .cardSouvenirs2 {
       grid-area: cardSouvenirs2; }
-    main .souvenirs .cardSouvenirs3 {
+    body main nav .souvenirs .cardSouvenirs3 {
       grid-area: cardSouvenirs3; }
-  main .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
-    main .regalosPersonalizados .cardPersonalizados1 {
+    body main nav .regalosPersonalizados .cardPersonalizados1 {
       grid-area: cardPersonalizados1; }
-    main .regalosPersonalizados .cardPersonalizados2 {
+    body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
-    main .regalosPersonalizados .cardPersonalizados3 {
+    body main nav .regalosPersonalizados .cardPersonalizados3 {
       grid-area: cardPersonalizados3; } }
 
+/*Acuarela tips*/
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
@@ -1225,6 +1309,7 @@ footer {
   .instagram__yani {
     grid-area: instagram__yani; } }
 
+/*Contacto*/
 .formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
@@ -1235,134 +1320,132 @@ footer {
   border: 2px palevioletred;
   color: palevioletred; }
 
-/*Estilos de Sobre mí*/
-.sobremi__titulo {
-  font-weight: bolder;
-  font-size: 35px;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-.sobreMi {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-  grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani imagen__yani" "texto__sobremi1 texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-
-.sobremi__titulo {
-  grid-area: sobremi__titulo; }
-
-.imagen__yani {
-  grid-area: imagen__yani; }
-
-.texto__sobremi1 {
-  grid-area: texto__sobremi1; }
-
-.subtitulos__sobremi1 {
-  grid-area: subtitulos__sobremi1; }
-
-.texto__sobremi2 {
-  grid-area: texto__sobremi2; }
-
-.subtitulos__sobremi2 {
-  grid-area: subtitulos__sobremi2; }
-
-.texto__sobremi3 {
-  grid-area: texto__sobremi3; }
-
-.subtitulos__sobremi3 {
-  grid-area: subtitulos__sobremi3; }
-
-.texto__sobremi4 {
-  grid-area: texto__sobremi4; }
-
-.instagram__yani {
-  grid-area: instagram__yani; }
-
-.imagen__yani {
-  width: 300px;
-  margin-left: 6.5rem; }
-
-.subtitulos__sobremi1 {
-  font-weight: bolder;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: underline;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 1rem;
-  margin-top: 0.8rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-.subtitulos__sobremi2 {
-  font-weight: bolder;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: underline;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 1rem;
-  margin-top: 0.8rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-.subtitulos__sobremi3 {
-  font-weight: bolder;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: underline;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 1rem;
-  margin-top: 0.8rem;
-  border: 2px palevioletred;
-  color: palevioletred; }
-
-.texto__sobremi1 {
-  text-align: center;
-  margin: 1.5rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.2rem; }
-
-.texto__sobremi2 {
-  text-align: center;
-  margin: 1.5rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.2rem; }
-
-.texto__sobremi3 {
-  text-align: center;
-  margin: 1.5rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.2rem; }
-
-.texto__sobremi4 {
-  text-align: center;
-  margin: 1.5rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.2rem; }
-
-.instagram__yani {
-  font-weight: bolder;
-  font-size: 15px;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-left: 1rem;
-  margin-top: 2rem; }
-
-footer {
-  color: black;
-  text-align: right;
-  font-size: 0.8rem;
-  margin-right: 1rem;
-  display: grid;
-  grid-template-columns: 100%; }
+/*Estilos de Sobre mí para movil*/
+@media screen and (min-width: 320px) {
+  body main .sobremi__titulo {
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  body main .sobreMi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani imagen__yani" "texto__sobremi1 texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
+  body main .sobremi__titulo {
+    grid-area: sobremi__titulo; }
+  body main .imagen__yani {
+    grid-area: imagen__yani; }
+  body main .texto__sobremi1 {
+    grid-area: texto__sobremi1; }
+  body main .subtitulos__sobremi1 {
+    grid-area: subtitulos__sobremi1; }
+  body main .texto__sobremi2 {
+    grid-area: texto__sobremi2; }
+  body main .subtitulos__sobremi2 {
+    grid-area: subtitulos__sobremi2; }
+  body main .texto__sobremi3 {
+    grid-area: texto__sobremi3; }
+  body main .subtitulos__sobremi3 {
+    grid-area: subtitulos__sobremi3; }
+  body main .texto__sobremi4 {
+    grid-area: texto__sobremi4; }
+  body main .instagram__yani {
+    grid-area: instagram__yani; }
+  body main .imagen__yani {
+    width: 300px;
+    margin-left: 6.5rem; }
+  body main .subtitulos__sobremi1 {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  body main .subtitulos__sobremi2 {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  body main .subtitulos__sobremi3 {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    border: 2px palevioletred;
+    color: palevioletred; }
+  body main .texto__sobremi1 {
+    text-align: center;
+    margin: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; }
+  body main .texto__sobremi2 {
+    text-align: center;
+    margin: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; }
+  body main .texto__sobremi3 {
+    text-align: center;
+    margin: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; }
+  body main .texto__sobremi4 {
+    text-align: center;
+    margin: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; }
+  body main .logoInstagram {
+    width: 10%;
+    margin-left: 13.5rem;
+    display: flex; }
+  body main .instagram__yani {
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 1rem;
+    margin-top: 2rem; }
+  body footer {
+    color: black;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: 100%; } }
 
 /*Media queries tamaño tablet*/
 /*Index*/
 @media screen and (min-width: 600px) {
-  .cuerpoIndex {
+  body header div .nombre__artista {
+    color: white;
+    font-size: 4.4rem;
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 100%; }
+  body header div .logo {
+    width: 20%;
+    height: 20%;
+    text-align: left;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem; }
+  body main .cuerpoIndex {
     margin: 2rem;
     padding: 1rem;
     font-family: 'Josefin Sans', sans-serif;
@@ -1371,213 +1454,221 @@ footer {
     grid-template-rows: 1fr;
     grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
     grid-area: conoceProductos; }
-  .conoceProductos {
+  body main .conoceProductos {
     grid-area: conoceProductos; }
-  .parrafo1 {
+  body main .parrafo1 {
     grid-area: parrafo1; }
-  .parrafo2 {
+  body main .parrafo2 {
     grid-area: parrafo2; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
-  .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2"  "card3 card4"  "card5 card6"; }
-  .card1 {
+  body main nav .card1 {
     grid-area: card1; }
-  .card2 {
+  body main nav .card2 {
     grid-area: card2; }
-  .card3 {
+  body main nav .card3 {
     grid-area: card3; }
-  .card4 {
+  body main nav .card4 {
     grid-area: card4; }
-  .card5 {
+  body main nav .card5 {
     grid-area: card5; }
-  .card6 {
+  body main nav .card6 {
     grid-area: card6; }
-  .retratos {
+  body main nav .retratos {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2" "cardRetrato3 cardRetrato4" "cardRetrato5 cardRetrato6"; }
-  .cardRetrato1 {
+  body main nav .cardRetrato1 {
     grid-area: cardRetrato1; }
-  .cardRetrato2 {
+  body main nav .cardRetrato2 {
     grid-area: cardRetrato2; }
-  .cardRetrato3 {
+  body main nav .cardRetrato3 {
     grid-area: cardRetrato3; }
-  .cardRetrato4 {
+  body main nav .cardRetrato4 {
     grid-area: cardRetrato4; }
-  .cardRetrato5 {
+  body main nav .cardRetrato5 {
     grid-area: cardRetrato5; }
-  .cardRetrato6 {
+  body main nav .cardRetrato6 {
     grid-area: cardRetrato6; }
-  .souvenirs {
+  body main nav .souvenirs {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3"; }
-  .cardSouvenirs1 {
+    grid-template-areas: "cardSouvenirs1 cardSouvenirs2"  "cardSouvenirs3 cardSouvenirs3"; }
+  body main nav .cardSouvenirs1 {
     grid-area: cardSouvenirs1; }
-  .cardSouvenirs2 {
+  body main nav .cardSouvenirs2 {
     grid-area: cardSouvenirs2; }
-  .cardSouvenirs3 {
+  body main nav .cardSouvenirs3 {
     grid-area: cardSouvenirs3; }
-  .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3"; }
-  .cardPersonalizados1 {
+    grid-template-areas: "cardPersonalizados1 cardPersonalizados2" "cardPersonalizados3 cardPersonalizados3"; }
+  body main nav .cardPersonalizados1 {
     grid-area: cardPersonalizados1; }
-  .cardPersonalizados2 {
+  body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
-  .cardPersonalizados3 {
+  body main nav .cardPersonalizados3 {
     grid-area: cardPersonalizados3; } }
+
+/*Acuarela tips*/
+@media screen and (min-width: 600px) {
+  body .video__acuarela {
+    margin-left: 7.5rem;
+    width: 600px;
+    height: 450px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
-  .sobremi__titulo {
+  body main .sobremi__titulo {
     font-weight: bolder;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1rem;
     margin-left: 1rem;
     border: 2px palevioletred;
     color: palevioletred; }
-  .imagen__yani {
-    width: 300px;
+  body main .imagen__yani {
+    width: 400px;
     margin-left: 1rem; }
-  .sobreMi {
+  body main .sobreMi {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "sobremi__titulo sobremi__titulo" "imagen__yani texto__sobremi1" "subtitulos__sobremi1 subtitulos__sobremi1" "texto__sobremi2 texto__sobremi2" "subtitulos__sobremi2 subtitulos__sobremi2" "texto__sobremi3 texto__sobremi3" "subtitulos__sobremi3 subtitulos__sobremi3" "texto__sobremi4 texto__sobremi4"  "instagram__yani instagram__yani"; }
-  .sobremi__titulos {
+  body main .sobremi__titulos {
     grid-area: sobremi__titulo; }
-  .imagen__yani {
+  body main .imagen__yani {
     grid-area: imagen__yani; }
-  .texto__sobremi1 {
+  body main .texto__sobremi1 {
     grid-area: texto__sobremi1; }
-  .subtitulos__sobremi1 {
+  body main .subtitulos__sobremi1 {
     grid-area: subtitulos__sobremi1; }
-  .texto__sobremi2 {
+  body main .texto__sobremi2 {
     grid-area: texto__sobremi2; }
-  .subtitulos__sobremi2 {
+  body main .subtitulos__sobremi2 {
     grid-area: subtitulos__sobremi2; }
-  .texto__sobremi3 {
+  body main .texto__sobremi3 {
     grid-area: texto__sobremi3; }
-  .subtitulos__sobremi3 {
+  body main .subtitulos__sobremi3 {
     grid-area: subtitulos__sobremi3; }
-  .texto__sobremi4 {
+  body main .texto__sobremi4 {
     grid-area: texto__sobremi4; }
-  .instagram__yani {
-    grid-area: instagram__yani; } }
-
-/*Acuarela tips*/
-@media screen and (min-width: 600px) {
-  .video__acuarela {
-    margin-left: 7.5rem;
-    width: 600px;
-    height: 450px; } }
+  body main .instagram__yani {
+    grid-area: instagram__yani; }
+  body main .logoInstagram {
+    width: 8%;
+    margin-left: 23.5rem;
+    display: flex; }
+  body main .texto__sobremi1 {
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
   .formulario__contacto {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 100px;
-    background-color: #f3e7e9;
+    margin-left: 500px;
     padding: 10px;
+    background-color: #f3e7e9;
     border: 5px;
     border-radius: 15px; } }
 
 /*Media queries tamaño desktop*/
 /*Productos*/
 @media screen and (min-width: 1024px) {
-  main nav h4 {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: underline;
-    margin-left: 15px;
-    margin-top: 1rem;
-    border: 2px palevioletred;
-    color: palevioletred; }
-  main .productosEnAcuarela {
+  body main nav .productosEnAcuarela {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "card1 card2 card3" "card4 card5 card6"; }
-    main .productosEnAcuarela .card1 {
+    body main nav .productosEnAcuarela .card1 {
       grid-area: card1; }
-    main .productosEnAcuarela .card2 {
+    body main nav .productosEnAcuarela .card2 {
       grid-area: card2; }
-    main .productosEnAcuarela .card3 {
+    body main nav .productosEnAcuarela .card3 {
       grid-area: card3; }
-    main .productosEnAcuarela .card4 {
+    body main nav .productosEnAcuarela .card4 {
       grid-area: card4; }
-    main .productosEnAcuarela .card5 {
+    body main nav .productosEnAcuarela .card5 {
       grid-area: card5; }
-    main .productosEnAcuarela .card6 {
+    body main nav .productosEnAcuarela .card6 {
       grid-area: card6; }
-  main .retratos {
+  body main nav .retratos {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardRetrato1 cardRetrato2 cardRetrato3" "cardRetrato4 cardRetrato5 cardRetrato6"; }
-    main .retratos .cardRetrato1 {
+    body main nav .retratos .cardRetrato1 {
       grid-area: cardRetrato1; }
-    main .retratos .cardRetrato2 {
+    body main nav .retratos .cardRetrato2 {
       grid-area: cardRetrato2; }
-    main .retratos .cardRetrato3 {
+    body main nav .retratos .cardRetrato3 {
       grid-area: cardRetrato3; }
-    main .retratos .cardRetrato4 {
+    body main nav .retratos .cardRetrato4 {
       grid-area: cardRetrato4; }
-    main .retratos .cardRetrato5 {
+    body main nav .retratos .cardRetrato5 {
       grid-area: cardRetrato5; }
-    main .retratos .cardRetrato6 {
+    body main nav .retratos .cardRetrato6 {
       grid-area: cardRetrato6; }
-  main .souvenirs {
+  body main nav .souvenirs {
     display: grid;
     padding: 2rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardSouvenirs1 cardSouvenirs2 cardSouvenirs3"; }
-    main .souvenirs .cardSouvenirs1 {
+    body main nav .souvenirs .cardSouvenirs1 {
       grid-area: cardSouvenirs1; }
-    main .souvenirs .cardSouvenirs2 {
+    body main nav .souvenirs .cardSouvenirs2 {
       grid-area: cardSouvenirs2; }
-    main .souvenirs .cardSouvenirs3 {
+    body main nav .souvenirs .cardSouvenirs3 {
       grid-area: cardSouvenirs3; }
-  main .regalosPersonalizados {
+  body main nav .regalosPersonalizados {
+    display: flex;
+    justify-content: space-evenly;
     display: grid;
     padding: 2rem;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "cardPersonalizados1 cardPersonalizados2 cardPersonalizados3"; }
-    main .regalosPersonalizados .cardPersonalizados1 {
+    body main nav .regalosPersonalizados .cardPersonalizados1 {
       grid-area: cardPersonalizados1; }
-    main .regalosPersonalizados .cardPersonalizados2 {
+    body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
-    main .regalosPersonalizados .cardPersonalizados3 {
+    body main nav .regalosPersonalizados .cardPersonalizados3 {
       grid-area: cardPersonalizados3; } }
 
+/*Acuarela tips*/
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
   .sobremi__titulo {
@@ -1619,6 +1710,7 @@ footer {
   .instagram__yani {
     grid-area: instagram__yani; } }
 
+/*Contacto*/
 .formulario__titulo {
   font-weight: bolder;
   font-size: 30px;
@@ -1629,6 +1721,7 @@ footer {
   border: 2px palevioletred;
   color: palevioletred; }
 
+/*Formulario contacto para móvil*/
 main form fieldset legend:hover {
   color: black;
   font-weight: bold; }
@@ -1660,69 +1753,73 @@ footer {
   padding: 0;
   box-sizing: border-box; }
 
-/* Estilos de Home */
-body {
-  background-color: pink; }
-  body header {
-    background-image: linear-gradient(to right, #fca5b3, #ecc5cb); }
-    body header h1:hover {
-      color: palevioletred;
-      font-weight: bold; }
-    body header .nombre__artista {
-      color: white;
-      font-size: 4rem;
-      font: bold;
-      font-family: 'Dancing Script', cursive;
-      margin-top: 15px;
-      display: grid;
-      grid-template-columns: 100%; }
-    body header .logo {
-      width: 20%;
-      text-align: left; }
-    body header .fondo-nav {
-      background-color: #e690a2;
-      padding: 0.5rem;
-      margin-top: 1rem; }
-      body header .fondo-nav a:link {
-        color: black;
-        text-decoration: none;
+/* Estilos de Index para móvil*/
+@media screen and (min-width: 320px) {
+  body {
+    background-color: pink; }
+    body header {
+      background-image: linear-gradient(to right, #fca5b3, #ecc5cb); }
+      body header h1:hover {
+        color: palevioletred;
         font-weight: bold; }
-      body header .fondo-nav a:visited {
+      body header .nombre__artista {
         color: white;
-        margin: 0rem;
-        padding: 0rem;
-        text-decoration: none;
-        font-weight: bold;
-        font-family: 'Josefin Sans', sans-serif;
-        list-style: none;
-        display: inline-block;
+        font-size: 4rem;
+        font: bold;
+        font-family: 'Dancing Script', cursive;
+        margin-top: 15px;
         display: grid;
-        grid-template-rows: 100%; }
-  body main .conoceProductos {
-    color: palevioletred;
-    margin: 1rem;
-    padding: 0rem;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.7rem;
-    text-decoration: underline; }
-  body main h3:hover {
-    color: white;
-    font-weight: bold; }
-  body main div .parrafo1 {
-    text-align: center;
-    margin: 1.5rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem; }
-  body main div .parrafo2 {
-    text-align: center;
-    margin: 1.5rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem; }
-  body footer {
-    color: black;
-    text-align: right;
-    font-size: 0.8rem;
-    margin-right: 1rem;
-    display: grid;
-    grid-template-columns: 100%; }
+        grid-template-columns: 100%; }
+      body header .logo {
+        width: 30%;
+        height: 30%;
+        text-align: left;
+        margin-top: 1.8rem;
+        margin-left: 0.5rem; }
+      body header .fondo-nav {
+        background-color: #e690a2;
+        padding: 0.5rem;
+        margin-top: 1rem; }
+        body header .fondo-nav a:link {
+          color: black;
+          text-decoration: none;
+          font-weight: bold; }
+        body header .fondo-nav a:visited {
+          color: white;
+          margin: 0rem;
+          padding: 0rem;
+          text-decoration: none;
+          font-weight: bold;
+          font-family: 'Josefin Sans', sans-serif;
+          list-style: none;
+          display: inline-block;
+          display: grid;
+          grid-template-rows: 100%; }
+    body main .conoceProductos {
+      color: palevioletred;
+      margin: 1rem;
+      padding: 0rem;
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.7rem;
+      text-decoration: underline; }
+    body main h3:hover {
+      color: white;
+      font-weight: bold; }
+    body main div .parrafo1 {
+      text-align: center;
+      margin: 1.5rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.2rem; }
+    body main div .parrafo2 {
+      text-align: center;
+      margin: 1.5rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.2rem; }
+    body footer {
+      color: black;
+      text-align: right;
+      font-size: 0.8rem;
+      margin-right: 1rem;
+      display: grid;
+      grid-template-columns: 100%; } }

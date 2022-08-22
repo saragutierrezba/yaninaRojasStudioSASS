@@ -1,13 +1,14 @@
 
 @import "utilities/variables";
 @import "utilities/listas";
-@import "utilities/mediaqueries";
 @import "utilities/mixin";
 @import "utilities/extend";
+@import "utilities/mediaqueries";
 @import "utilities/productos";
 @import "utilities/acuarelatips";
 @import "utilities/sobremi";
 @import "utilities/contacto";
+
 
 
 /* reset */
@@ -18,7 +19,9 @@
     box-sizing: border-box;
 }
 
-/* Estilos de Home */
+/* Estilos de Index para móvil*/
+
+@media screen and (min-width: 320px) {
 
 body{
     background-color: $color-principal;
@@ -38,8 +41,11 @@ body{
                                grid-template-columns: 100%; 
                                }
               .logo{
-                   width: 20%;
+                   width: 30%;
+                   height: 30%;
                    text-align: left;
+                   margin-top: 1.8rem;
+                   margin-left: 0.5rem;
                    }
 
                .fondo-nav{
@@ -100,3 +106,5 @@ body{
             @include estilo-footer;
             }
 }
+}
+

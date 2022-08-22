@@ -5,26 +5,37 @@
 @import "utilities/extend";
 
 
-/*Estilos de Acuarela tips*/
+/*Estilos de Acuarela tips para móvil*/
 
-main h2:hover{
-    color: white;
-    font-weight: bold;
+@media screen and (min-width: 320px) {
+
+body{
+    main h2:hover{
+        color: white;
+        font-weight: bold;
+    }
+        .acuarela__titulo{
+        @include estilo-titulos;
+    }
+        .video__acuarela{
+        margin-left: 15px;
+        size-adjust: 1rem;
+    }
+        .texto__acuarela{
+        @include estilo-textos
+    }
+
+    footer{
+        @include estilo-footer;
+    }
+}
 }
 
-.acuarela__titulo{
-    @include estilo-titulos;
-}
 
-.video__acuarela{
-    margin-left: 15px;
-    size-adjust: 1rem;
-}
 
-.texto__acuarela{
-    @include estilo-textos
-}
 
-footer{
-    @include estilo-footer;
-}
+
+
+
+
+

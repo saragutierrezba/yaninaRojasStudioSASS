@@ -1,10 +1,13 @@
 @import "utilities/variables";
 @import "utilities/listas";
-@import "utilities/mediaqueries";
 @import "utilities/mixin";
 @import "utilities/extend";
+@import "utilities/mediaqueries";
 
-/*Estilos de Productos*/
+
+/*Estilos de Productos para móvil*/
+
+@media screen and (min-width: 320px) {
 
 body{
     header{
@@ -74,6 +77,7 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
+            align-content: center;
             display: grid;
             padding: 2rem;
             grid-template-columns: auto;
@@ -110,6 +114,7 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
+            align-content: center;
             display: grid;
             padding: 2rem;
             grid-template-columns: auto;
@@ -133,6 +138,7 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
+            align-content: center;
             display: grid;
             padding: 2rem;
             grid-template-columns: auto;
@@ -156,4 +162,5 @@ body{
     footer{
     @include estilo-footer;
     }
+}
 }
