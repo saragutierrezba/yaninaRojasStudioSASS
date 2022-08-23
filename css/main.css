@@ -26,21 +26,10 @@
     text-align: left;
     margin-top: 1.8rem;
     margin-left: 0.5rem; }
-  body main .cuerpoIndex {
-    margin: 2rem;
-    padding: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
-    grid-area: conoceProductos; }
-  body main .conoceProductos {
-    grid-area: conoceProductos; }
-  body main .parrafo1 {
-    grid-area: parrafo1; }
-  body main .parrafo2 {
-    grid-area: parrafo2; } }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
@@ -111,14 +100,22 @@
   body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
   body main nav .cardPersonalizados3 {
-    grid-area: cardPersonalizados3; } }
+    grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 600px) {
   body .video__acuarela {
     margin-left: 7.5rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
@@ -160,14 +157,18 @@
   body main .instagram__yani {
     grid-area: instagram__yani; }
   body main .logoInstagram {
-    width: 8%;
-    margin-left: 23.5rem;
+    width: 5%;
+    margin-left: 26rem;
     display: flex; }
   body main .texto__sobremi1 {
     padding: 0rem;
     margin: 0rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
@@ -181,7 +182,11 @@
     padding: 10px;
     background-color: #f3e7e9;
     border: 5px;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Media queries tamaño desktop*/
 /*Index*/
@@ -199,7 +204,11 @@
     height: 10%;
     text-align: left;
     margin-top: 1.8rem;
-    margin-left: 0.5rem; } }
+    margin-left: 0.5rem; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -264,14 +273,22 @@
     body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
     body main nav .regalosPersonalizados .cardPersonalizados3 {
-      grid-area: cardPersonalizados3; } }
+      grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 1024px) {
   body .video__acuarela {
     margin-left: 23rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
@@ -316,7 +333,18 @@
   body main .logoInstagram {
     width: 3%;
     margin-left: 40rem;
-    display: flex; } }
+    display: flex; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
+
+/*Contacto*/
+@media screen and (min-width: 1024px) {
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 .formulario__titulo {
   font-weight: bolder;
@@ -345,21 +373,10 @@
     text-align: left;
     margin-top: 1.8rem;
     margin-left: 0.5rem; }
-  body main .cuerpoIndex {
-    margin: 2rem;
-    padding: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
-    grid-area: conoceProductos; }
-  body main .conoceProductos {
-    grid-area: conoceProductos; }
-  body main .parrafo1 {
-    grid-area: parrafo1; }
-  body main .parrafo2 {
-    grid-area: parrafo2; } }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
@@ -430,14 +447,22 @@
   body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
   body main nav .cardPersonalizados3 {
-    grid-area: cardPersonalizados3; } }
+    grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 600px) {
   body .video__acuarela {
     margin-left: 7.5rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
@@ -479,14 +504,18 @@
   body main .instagram__yani {
     grid-area: instagram__yani; }
   body main .logoInstagram {
-    width: 8%;
-    margin-left: 23.5rem;
+    width: 5%;
+    margin-left: 26rem;
     display: flex; }
   body main .texto__sobremi1 {
     padding: 0rem;
     margin: 0rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
@@ -500,7 +529,11 @@
     padding: 10px;
     background-color: #f3e7e9;
     border: 5px;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Media queries tamaño desktop*/
 /*Index*/
@@ -518,7 +551,11 @@
     height: 10%;
     text-align: left;
     margin-top: 1.8rem;
-    margin-left: 0.5rem; } }
+    margin-left: 0.5rem; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -583,14 +620,22 @@
     body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
     body main nav .regalosPersonalizados .cardPersonalizados3 {
-      grid-area: cardPersonalizados3; } }
+      grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 1024px) {
   body .video__acuarela {
     margin-left: 23rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
@@ -635,7 +680,18 @@
   body main .logoInstagram {
     width: 3%;
     margin-left: 40rem;
-    display: flex; } }
+    display: flex; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
+
+/*Contacto*/
+@media screen and (min-width: 1024px) {
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Estilos de Productos para móvil*/
 @media screen and (min-width: 320px) {
@@ -773,21 +829,10 @@
     text-align: left;
     margin-top: 1.8rem;
     margin-left: 0.5rem; }
-  body main .cuerpoIndex {
-    margin: 2rem;
-    padding: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
-    grid-area: conoceProductos; }
-  body main .conoceProductos {
-    grid-area: conoceProductos; }
-  body main .parrafo1 {
-    grid-area: parrafo1; }
-  body main .parrafo2 {
-    grid-area: parrafo2; } }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
@@ -858,14 +903,22 @@
   body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
   body main nav .cardPersonalizados3 {
-    grid-area: cardPersonalizados3; } }
+    grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 600px) {
   body .video__acuarela {
     margin-left: 7.5rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
@@ -907,14 +960,18 @@
   body main .instagram__yani {
     grid-area: instagram__yani; }
   body main .logoInstagram {
-    width: 8%;
-    margin-left: 23.5rem;
+    width: 5%;
+    margin-left: 26rem;
     display: flex; }
   body main .texto__sobremi1 {
     padding: 0rem;
     margin: 0rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
@@ -928,7 +985,11 @@
     padding: 10px;
     background-color: #f3e7e9;
     border: 5px;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Media queries tamaño desktop*/
 /*Index*/
@@ -946,7 +1007,11 @@
     height: 10%;
     text-align: left;
     margin-top: 1.8rem;
-    margin-left: 0.5rem; } }
+    margin-left: 0.5rem; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -1011,14 +1076,22 @@
     body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
     body main nav .regalosPersonalizados .cardPersonalizados3 {
-      grid-area: cardPersonalizados3; } }
+      grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 1024px) {
   body .video__acuarela {
     margin-left: 23rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
@@ -1063,7 +1136,18 @@
   body main .logoInstagram {
     width: 3%;
     margin-left: 40rem;
-    display: flex; } }
+    display: flex; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
+
+/*Contacto*/
+@media screen and (min-width: 1024px) {
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 .formulario__titulo {
   font-weight: bolder;
@@ -1097,7 +1181,7 @@
     size-adjust: 0.5rem; }
   body .texto__acuarela {
     text-align: center;
-    margin: 1.5rem;
+    margin: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body footer {
@@ -1125,21 +1209,10 @@
     text-align: left;
     margin-top: 1.8rem;
     margin-left: 0.5rem; }
-  body main .cuerpoIndex {
-    margin: 2rem;
-    padding: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
-    grid-area: conoceProductos; }
-  body main .conoceProductos {
-    grid-area: conoceProductos; }
-  body main .parrafo1 {
-    grid-area: parrafo1; }
-  body main .parrafo2 {
-    grid-area: parrafo2; } }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
@@ -1210,14 +1283,22 @@
   body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
   body main nav .cardPersonalizados3 {
-    grid-area: cardPersonalizados3; } }
+    grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 600px) {
   body .video__acuarela {
     margin-left: 7.5rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
@@ -1259,14 +1340,18 @@
   body main .instagram__yani {
     grid-area: instagram__yani; }
   body main .logoInstagram {
-    width: 8%;
-    margin-left: 23.5rem;
+    width: 5%;
+    margin-left: 26rem;
     display: flex; }
   body main .texto__sobremi1 {
     padding: 0rem;
     margin: 0rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
@@ -1280,7 +1365,11 @@
     padding: 10px;
     background-color: #f3e7e9;
     border: 5px;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Media queries tamaño desktop*/
 /*Index*/
@@ -1298,7 +1387,11 @@
     height: 10%;
     text-align: left;
     margin-top: 1.8rem;
-    margin-left: 0.5rem; } }
+    margin-left: 0.5rem; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -1363,14 +1456,22 @@
     body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
     body main nav .regalosPersonalizados .cardPersonalizados3 {
-      grid-area: cardPersonalizados3; } }
+      grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 1024px) {
   body .video__acuarela {
     margin-left: 23rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
@@ -1415,7 +1516,18 @@
   body main .logoInstagram {
     width: 3%;
     margin-left: 40rem;
-    display: flex; } }
+    display: flex; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
+
+/*Contacto*/
+@media screen and (min-width: 1024px) {
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 .formulario__titulo {
   font-weight: bolder;
@@ -1498,22 +1610,22 @@
     color: palevioletred; }
   body main .texto__sobremi1 {
     text-align: center;
-    margin: 1.5rem;
+    margin: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body main .texto__sobremi2 {
     text-align: center;
-    margin: 1.5rem;
+    margin: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body main .texto__sobremi3 {
     text-align: center;
-    margin: 1.5rem;
+    margin: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body main .texto__sobremi4 {
     text-align: center;
-    margin: 1.5rem;
+    margin: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem; }
   body main .logoInstagram {
@@ -1552,21 +1664,10 @@
     text-align: left;
     margin-top: 1.8rem;
     margin-left: 0.5rem; }
-  body main .cuerpoIndex {
-    margin: 2rem;
-    padding: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: "conoceProductos conoceProductos" "parrafo1 parrafo2";
-    grid-area: conoceProductos; }
-  body main .conoceProductos {
-    grid-area: conoceProductos; }
-  body main .parrafo1 {
-    grid-area: parrafo1; }
-  body main .parrafo2 {
-    grid-area: parrafo2; } }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 600px) {
@@ -1637,14 +1738,22 @@
   body main nav .cardPersonalizados2 {
     grid-area: cardPersonalizados2; }
   body main nav .cardPersonalizados3 {
-    grid-area: cardPersonalizados3; } }
+    grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 600px) {
   body .video__acuarela {
     margin-left: 7.5rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 600px) {
@@ -1686,14 +1795,18 @@
   body main .instagram__yani {
     grid-area: instagram__yani; }
   body main .logoInstagram {
-    width: 8%;
-    margin-left: 23.5rem;
+    width: 5%;
+    margin-left: 26rem;
     display: flex; }
   body main .texto__sobremi1 {
     padding: 0rem;
     margin: 0rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*contacto*/
 @media screen and (min-width: 600px) {
@@ -1707,7 +1820,11 @@
     padding: 10px;
     background-color: #f3e7e9;
     border: 5px;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  body main div .redesSociales {
+    width: 5%;
+    margin-left: 26rem;
+    margin-top: 8px; } }
 
 /*Media queries tamaño desktop*/
 /*Index*/
@@ -1725,7 +1842,11 @@
     height: 10%;
     text-align: left;
     margin-top: 1.8rem;
-    margin-left: 0.5rem; } }
+    margin-left: 0.5rem; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Productos*/
 @media screen and (min-width: 1024px) {
@@ -1790,14 +1911,22 @@
     body main nav .regalosPersonalizados .cardPersonalizados2 {
       grid-area: cardPersonalizados2; }
     body main nav .regalosPersonalizados .cardPersonalizados3 {
-      grid-area: cardPersonalizados3; } }
+      grid-area: cardPersonalizados3; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Acuarela tips*/
 @media screen and (min-width: 1024px) {
   body .video__acuarela {
     margin-left: 23rem;
     width: 600px;
-    height: 450px; } }
+    height: 450px; }
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 /*Sobre mi*/
 @media screen and (min-width: 1024px) {
@@ -1842,7 +1971,18 @@
   body main .logoInstagram {
     width: 3%;
     margin-left: 40rem;
-    display: flex; } }
+    display: flex; }
+  body main div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
+
+/*Contacto*/
+@media screen and (min-width: 1024px) {
+  body header div .redesSociales {
+    width: 3%;
+    margin-left: 41rem;
+    margin-top: 8px; } }
 
 .formulario__titulo {
   font-weight: bolder;
@@ -1932,24 +2072,21 @@ footer {
       font-weight: bold; }
     body main div .parrafo1 {
       text-align: center;
-      margin: 1.5rem;
+      margin: 1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-size: 1.2rem; }
     body main div .parrafo2 {
       text-align: center;
-      margin: 1.5rem;
+      margin: 1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-size: 1.2rem; }
     body main .redesSociales {
       width: 10%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin-left: 14rem;
       margin-top: 8px; }
     body main .infoRedes {
       text-align: center;
-      margin: 1.5rem;
+      margin: 1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-size: 1.2rem; }
   footer {

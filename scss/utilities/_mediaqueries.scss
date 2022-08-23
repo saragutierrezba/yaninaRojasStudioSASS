@@ -23,34 +23,19 @@
                     margin-top: 1.8rem;
                     margin-left: 0.5rem;
                     }
+                }
             }
-        }
+
         main{
-            .cuerpoIndex{
-                margin: 2rem;
-                padding: 1rem;
-                font-family: 'Josefin Sans', sans-serif;
-                display: grid;
-                grid-template-columns: auto auto ;
-                grid-template-rows: 1fr;
-                grid-template-areas:"conoceProductos conoceProductos"
-                                    "parrafo1 parrafo2";
-                grid-area: conoceProductos;
+            div{
+            .redesSociales{
+              width: 5%;
+              margin-left: 26rem;
+              margin-top: 8px;
             }
-            
-            .conoceProductos{
-                grid-area: conoceProductos;
-            }
-            
-            .parrafo1{
-                grid-area: parrafo1;
-            }
-            
-            .parrafo2{
-                grid-area: parrafo2;
-            }
-        }
-    } 
+          }
+        } 
+    }
 }
     
 
@@ -166,6 +151,14 @@
                         grid-area: cardPersonalizados3;
                     }
             }
+
+            div{
+                .redesSociales{
+                    width: 5%;
+                    margin-left: 26rem;
+                    margin-top: 8px;
+                  }
+            }
         }
     }
 
@@ -180,6 +173,14 @@
         margin-left: 7.5rem;
         width: 600px;
         height: 450px;
+    }
+    main div{
+            .redesSociales{
+                width: 5%;
+                margin-left: 26rem;
+                margin-top: 8px;
+              }
+        
     }
     }   
 }
@@ -261,8 +262,8 @@
     }
 
     .logoInstagram{
-        width: 8%;
-        margin-left: 23.5rem;
+        width: 5%;
+        margin-left: 26rem;
         display: flex;
     }
 
@@ -271,6 +272,14 @@
         margin: 0rem;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 1.2rem 
+    }
+
+    div{
+        .redesSociales{
+            width: 5%;
+            margin-left: 26rem;
+            margin-top: 8px;
+          }
     }
 }
 }
@@ -291,6 +300,16 @@
         background-color: rgb(243, 231, 233);
         border: 5px;
         border-radius: 15px;
+    }
+
+    body main{
+        div{
+            .redesSociales{
+                width: 5%;
+                margin-left: 26rem;
+                margin-top: 8px;
+              }
+        }
     }
 }
     
@@ -318,6 +337,16 @@
                     margin-top: 1.8rem;
                     margin-left: 0.5rem;
                     }
+            }
+        }
+
+        main{
+            div{
+                .redesSociales{
+                    width: 3%;
+                    margin-left: 41rem;
+                    margin-top: 8px;
+                  }
             }
         }
 }
@@ -425,6 +454,14 @@ body{
                 }
             }
         }
+
+        div{
+            .redesSociales{
+                width: 3%;
+                margin-left: 41rem;
+                margin-top: 8px;
+              }
+        }
         
     }
 }
@@ -437,6 +474,15 @@ body{
             margin-left: 23rem;
             width: 600px;
             height: 450px;
+        }
+        header{
+            div{
+                .redesSociales{
+                    width: 3%;
+                    margin-left: 41rem;
+                    margin-top: 8px;
+                  }
+            }
         }
         } 
 }
@@ -524,8 +570,33 @@ body{
                 margin-left: 40rem;
                 display: flex;
             }
+
+            div{
+                .redesSociales{
+                    width: 3%;
+                    margin-left: 41rem;
+                    margin-top: 8px;
+                  }
+            }
         }
     }
     
 
+}
+
+/*Contacto*/
+
+@media screen and (min-width:1024px) {
+
+body{
+    header{
+        div{
+            .redesSociales{
+                width: 3%;
+                margin-left: 41rem;
+                margin-top: 8px;
+              }
+        }
+    }
+}
 }
