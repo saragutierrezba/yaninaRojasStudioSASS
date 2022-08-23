@@ -1090,6 +1090,9 @@
     border: 2px palevioletred;
     color: palevioletred; }
   body .video__acuarela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 15px;
     size-adjust: 1rem; }
   body .texto__acuarela {
@@ -1515,7 +1518,7 @@
     font-size: 1.2rem; }
   body main .logoInstagram {
     width: 10%;
-    margin-left: 13.5rem;
+    margin-left: 14rem;
     display: flex; }
   body main .instagram__yani {
     font-weight: bolder;
@@ -1856,18 +1859,19 @@ main form fieldset legend:hover {
   color: black;
   font-weight: bold; }
 
-.formulario__contacto {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+main .formulario__titulo {
   text-align: center;
-  margin: 20px;
-  margin-left: 60px;
   background-color: #f3e7e9;
+  font-size: 25px;
   padding: 10px;
   border: 5px;
   border-radius: 15px;
   height: fit-content;
   width: fit-content; }
+
+main .completarInfo {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
 
 footer {
   color: black;
@@ -1894,7 +1898,7 @@ footer {
         font-weight: bold; }
       body header .nombre__artista {
         color: white;
-        font-size: 4rem;
+        font-size: 3.6rem;
         font: bold;
         font-family: 'Dancing Script', cursive;
         margin-top: 15px;
@@ -1946,10 +1950,22 @@ footer {
       margin: 1.5rem;
       font-family: 'Josefin Sans', sans-serif;
       font-size: 1.2rem; }
-    body footer {
-      color: black;
-      text-align: right;
-      font-size: 0.8rem;
-      margin-right: 1rem;
-      display: grid;
-      grid-template-columns: 100%; } }
+    body main .redesSociales {
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 14rem;
+      margin-top: 8px; }
+    body main .infoRedes {
+      text-align: center;
+      margin: 1.5rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.2rem; }
+  footer {
+    color: black;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: 100%; } }

@@ -18,8 +18,12 @@ body{
         @include estilo-titulos;
     }
         .video__acuarela{
-        margin-left: 15px;
-        size-adjust: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 15px;
+            size-adjust: 1rem;
+        
     }
         .texto__acuarela{
         @include estilo-textos

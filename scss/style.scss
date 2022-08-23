@@ -33,7 +33,7 @@ body{
                       }
               .nombre__artista {
                                color: nth($list:$colores,$n:3);
-                               font-size: 2rem *2;
+                               font-size: 1.8rem *2;
                                font: bold;
                                font-family: 'Dancing Script', cursive;
                                margin-top: 15px;
@@ -101,10 +101,26 @@ body{
                 }
             }
         }
+
+        main{
+                .redesSociales{
+                  width: 10%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-left: 14rem;
+                  margin-top: 8px;
+
+                }
+
+                .infoRedes{
+                    @include estilo-textos;
+                }
+            }
+        }
         
         footer{
             @include estilo-footer;
             }
-}
 }
 

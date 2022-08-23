@@ -15,21 +15,22 @@
                 font-weight: bold;
         }
             
-        .formulario__contacto{
-                font-size: 15px;
-                font-family: Arial, Helvetica, sans-serif;
+        main .formulario__titulo{
                 text-align: center;
-                margin: 20px;
-                margin-left: 60px;
                 background-color: rgb(243, 231, 233);
+                font-size: 25px;
                 padding: 10px;
                 border: 5px;
                 border-radius: 15px;
                 height: fit-content;
                 width:fit-content;
         }
-
         
+
+        main .completarInfo{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
 
         footer{
     @include estilo-footer;
