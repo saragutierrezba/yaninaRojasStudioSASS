@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .formulario__titulo {
   font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 15px;
   margin-top: 1rem;
@@ -320,8 +320,8 @@
 
 .formulario__titulo {
   font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 15px;
   margin-top: 1rem;
@@ -1067,8 +1067,8 @@
 
 .formulario__titulo {
   font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 15px;
   margin-top: 1rem;
@@ -1419,8 +1419,8 @@
 
 .formulario__titulo {
   font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 15px;
   margin-top: 1rem;
@@ -1846,8 +1846,8 @@
 
 .formulario__titulo {
   font-weight: bolder;
-  font-size: 30px;
-  text-align: left;
+  font-size: 25px;
+  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 15px;
   margin-top: 1rem;
@@ -1856,18 +1856,8 @@
 
 /*Formulario contacto para móvil*/
 main form fieldset legend:hover {
-  color: black;
+  color: white;
   font-weight: bold; }
-
-main .formulario__titulo {
-  text-align: center;
-  background-color: #f3e7e9;
-  font-size: 25px;
-  padding: 10px;
-  border: 5px;
-  border-radius: 15px;
-  height: fit-content;
-  width: fit-content; }
 
 main .completarInfo {
   font-family: Arial, Helvetica, sans-serif;
