@@ -203,7 +203,7 @@
 
     .imagen__yani{
         width: 400px;
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
     .sobreMi{
         display: grid;
@@ -230,7 +230,9 @@
     
     .texto__sobremi1{
         grid-area: texto__sobremi1;
-    
+        text-align: left;
+        padding: 2px;
+        justify-content: center;
     }
     
     .subtitulos__sobremi1{
@@ -597,6 +599,21 @@ body{
                 margin-top: 8px;
               }
         }
+    }
+    main{
+        .logoInstagram{
+            width: 3%;
+            margin-left: 41rem;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .sobreMi{
+            .subtitulos__sobremi1{
+                margin-left: 5px;
+            }
+        }
+        
     }
 }
 }

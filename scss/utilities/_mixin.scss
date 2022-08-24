@@ -49,3 +49,17 @@
         color: nth($list:$colores,$n:2);     
 }
 
+@mixin estilo-textosDesktop1 {
+        text-align: left;
+        margin: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem   
+}
+
+@mixin estilo-textosDesktop2 {
+        text-align: center;
+        margin: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem   
+}
+
